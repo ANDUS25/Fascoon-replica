@@ -1,0 +1,76 @@
+.main {
+  font-family: 'Nunito', sans-serif;
+}
+
+.main .site {
+  color: blue;
+  margin: 3em 0 2em 4em;
+}
+
+.main .float {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .float .left, .main .float .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .float .left a, .main .float .right a {
+  width: 100%;
+  display: inline;
+  padding: 1em 0;
+  text-decoration: none;
+  -webkit-transition: all .3s linear .2s;
+  transition: all .3s linear .2s;
+  color: #355de0;
+}
+
+.main .float .left a:hover, .main .float .right a:hover {
+  text-decoration: underline;
+}
+
+.main .float .left a:visited, .main .float .right a:visited {
+  color: red;
+}
+
+@media (min-width: 1800px) and (max-width: 2560px) {
+  .main .site {
+    margin: 4em 0 2em 16.5em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .main .site {
+    margin: 4em 0 2em 1em;
+  }
+}
+
+@media (min-width: 0) and (max-width: 425px) {
+  .main .site {
+    margin: 4em 0 2em 1em;
+  }
+  .float {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .float h1 {
+    font-size: 1em;
+    margin: 4em 0 0 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

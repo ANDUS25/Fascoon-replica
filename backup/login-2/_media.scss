@@ -1,0 +1,362 @@
+@media (min-width:1800px) and (max-width:2700px){
+    div{
+        .own-nav{
+            .own-img{
+                width:65%;
+            }
+        }
+    }
+    .login{
+        margin: 7em 0 5em 39em;
+        width:50vw;
+        .left, .right{
+            width:50%
+        }
+    }
+    .foot{
+        .main_content{
+            margin:0 40em;
+        }
+    }
+    .base{
+        margin:0 41em;
+    }
+}
+
+@media (min-width:1100px) and (max-width:1440px){
+    div{
+        .own-nav{
+            .own-img{
+                width:65%;
+            }
+        }
+    }
+    .login{
+        .left, .right{
+            .buttons{
+                width:35vw;
+            }
+            .be{
+                &::before{
+                    width:9em;
+                }
+                &::after{
+                    width:9em;
+                }
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .help{
+                margin:5em 6em;
+                .all_links{
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            hr{
+                width:90vw;
+                margin:0 0 0 -32em;
+            }
+        }
+    }
+    .base{
+        margin:0 1.5em;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    div{
+        .own-nav{
+            .own-img{
+                width:55%;
+            }
+        }
+    }
+    .login{
+        width:85vw;
+        .right, .left{
+            .be{
+                margin:0 0 0 -2em;
+                &:before {
+                    width:6em;
+                }
+                &:after {
+                  width: 6em;
+                }
+            }
+            .buttons{
+                width:49vw;
+                display: flex;
+                flex-direction: column;
+                button{
+                    margin:1em 3em;
+                }
+
+            }
+        }
+        .left{
+            margin:0 1em 0 -6em;
+            width:40vw;
+        }
+        .right{
+            width:40vw;
+        }
+    }
+    .base{
+        .right{
+            margin:0 ;
+        }
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+    div{
+        .own-nav{
+            .own-img{
+                width:37vw;
+                img{
+                    width:35%;
+                }
+            }
+        }
+    }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        .left, .right{
+            width:90vw;
+            border:none;
+            .buttons{
+                display: flex;
+                flex-direction: row;
+                width:90vw;
+                margin:0 0 0 -2em;
+            }
+            .be{
+                &::before{
+                    width: 16em;
+                }
+                &::after{
+                    width: 16em;
+                }
+            }
+            .regii{
+                width:98%;
+            }
+        }
+        .right{
+            margin:0 0 0 -6em;
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            position: relative;
+            right:-16em;
+            width: 50%;
+        }
+        .left{
+            ul{
+                margin:0 9em;
+            }
+        }
+    }
+}
+
+@media (min-width:321px) and (max-width:425px) {
+    .login{
+        width:64%;
+        .right, .left{
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                button{
+                    width:85vw;
+                    margin:1em 0 0 2em;
+                }
+            }
+            input[type=email], input[type=password]{
+                width:90vw;
+            }
+            .be{
+                &::after{
+                    width:5em
+                }
+                &::before{
+                    width:5em
+                }
+            }
+        }
+        .left{
+            margin: 0 0 0 -8em ;
+            
+        }
+        .right{
+            margin: 0 0 0 -10em ;
+            .password{
+                display: flex;
+                flex-direction: row;
+                width:80vw;
+            }
+        }
+    }
+    .foot{
+        .main_content{
+             .help{
+                 margin:0 0 15em 0;
+                 .all_links{
+                     img{
+                         margin:0 0 0 13em;
+                     }
+                     .join{
+                         white-space: nowrap;
+                         position: relative;
+                         right:-7em;
+                     }
+                     .help_link{
+                         h2{
+                             white-space: nowrap;
+                         }
+                         position: relative;
+                         right:14em;
+                         top:13em;
+                         ul{
+                             a{
+                                 white-space: nowrap;
+                             }
+                         }
+                     }
+                     .social{
+                         h2{
+                             white-space: nowrap;
+                         }
+                         width:80%;
+                         position: relative;
+                         right:12em;
+                         top:13em;
+                     }
+                 }
+             }
+         }
+     }
+     .base{
+         display: flex;
+         flex-direction: column;
+         .right{
+             margin:0 0 0 -9em;
+             width:53%;
+         }
+         .left{
+             white-space: nowrap;
+             ul{
+                 li{
+                     padding:0 -2em;
+                 }
+             }
+         }
+     }
+}
+
+@media (min-width:0) and (max-width:375px) {
+    div{
+        .own-nav{
+            .own-img{
+                img{
+                    width:35%;
+                }
+            }
+        }
+    }
+    .login{
+        width:64%;
+        display: flex;
+        flex-direction: column;
+        .right, .left{
+            border: none;
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                button{
+                    width:85vw;
+                    margin:1em 0 0 2em;
+                }
+                label{
+                    white-space: normal;
+                }
+            }
+            input[type=email], input[type=password]{
+                width:90vw;
+            }
+            .be{
+                width:100vw;
+                &::after{
+                    width:4em
+                }
+                &::before{
+                    width:4em
+                }
+            }
+        }
+        .left{
+            margin: 0 0 0 -9em ;
+            .regii{
+                width:90vw;
+            }
+        }
+        .right{
+            margin: 0 0 0 -10em ;
+            .password{
+                display: flex;
+                flex-direction: row;
+                width:80vw;
+            }
+            .regi{
+                width:90vw;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                    img{
+                        margin:0
+                    }
+                    .join{
+                        right:0;
+                    }
+                    .help_link{
+                        right:0;
+                    }
+                    .social{
+                        right:0;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+            margin:0 0 0 5em;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+} 

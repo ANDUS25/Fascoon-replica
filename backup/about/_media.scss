@@ -1,0 +1,414 @@
+@media (min-width:1600px) and (max-width:2560px) {
+    body{
+        .first-page{
+            margin:0 35em;
+            .right{
+                .number{
+                    .cl-1 , .cl-2{
+                        .nums{
+                            display: flex;
+                            flex-direction: column;
+                            width:8vw;
+                            background-color: lightseagreen;
+                            margin:1em;
+                        }
+
+                    } 
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                margin:0 40em;
+                .blue_back{
+                    position: relative;
+                    top:-6em;
+                    width:94em;
+                    .common{
+                        width:58%;
+                    }
+                }
+            }
+        }
+        .base{
+            margin:0 41em   ;
+        }
+    }
+}
+
+@media (min-width:1050px) and (max-width:1452px) {
+    body{
+        .first-page{
+            margin:0 0 0 9em;
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    position: relative;
+                    top:-2em;
+                    left:-2em;
+                    .common{
+                        .start, .tutor{
+                            width:15em;
+                        }
+                    }
+                }
+                .help{
+                    margin:5em 6em;
+                    .all_links{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+                hr{
+                    width:90vw;
+                    margin:0 0 0 -32em;
+                }
+            }
+        }
+        .base{
+            margin:0 1.5em;
+        }
+    }
+}
+
+@media (min-width:780px) and (max-width:1025px) {
+    body{
+        .first-page{
+            margin:0 0 0 5em;
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    width:90vw;
+                    .common{
+                        .start{
+                            margin:0 0 0 -3em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            .right{
+                margin:0 0 0 -2em;
+            }
+        }
+    }
+}
+
+@media (min-width:450px) and (max-width:770px) {
+    body{
+        .first-page{
+            width:100vw;
+            display: flex;
+            flex-direction: column;
+            .gd{
+                p{
+                    width:95vw;
+                }
+            }
+            .right{
+                .number{
+                    .cl-1, .cl-2{
+                        display: flex;
+                        flex-direction: row;
+                        
+                    }
+                }
+            }
+        }
+        .page-two{
+            .top, .bottom{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width:100%;
+
+                }
+            }
+        }
+        .images{
+            .image{
+                justify-content: space-between;
+                .six_image{
+                    margin:0 .2em;
+                }
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .blue_back{
+                display: flex;
+                flex-direction: column;
+                width:90vw;
+                h1{
+                    position: relative;
+                    right: -3em;
+                }
+                .common{
+                    width:90vw;
+                    margin:.5em -7.5em;
+                    .start{
+                        position: relative;
+                        left:7em;
+                        width:30%;
+                        height: 3em;
+                    }
+                    .tutor{
+                        position: relative;
+                        right:-7em;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            position: relative;
+            right:-16em;
+            width: 50%;
+        }
+        .left{
+            ul{
+                margin:0 9em;
+            }
+        }
+    }
+}
+
+@media (min-width:380px) and (max-width:430px) {
+    body{
+        .first-page{
+            margin:0 0 0 1em;
+            width:100vw;
+            display: flex;
+            flex-direction: column;
+            .gd{
+                p{
+                    width:100vw;
+                }
+            }
+            .right{
+                .number{display: flex;
+                    margin:0 0 0 -21em;
+                }
+            }
+        }
+        .page-two{
+            .top, .bottom{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width:100%;
+
+                }
+            }
+        }
+        .images{
+            .image{
+                width:90%;
+                .four{
+                    animation: none;
+                }
+                .six_image{
+                    margin: 0;
+                }
+                margin: 0 0 0 -.5em;
+            }
+        }
+        .foot{
+           .main_content{
+               .blue_back{
+                   border-radius: 10em;
+                   width:100vw;
+                   padding:-.5em 0 0 0;
+                    h1{
+                        margin:0 0 0 .5em;
+                        white-space: nowrap;
+                    }
+                    .common{
+                        display: flex;
+                        flex-direction: column;
+                        .start{
+                            position: relative;
+                            top:4em;
+                            left:-12em;
+                            width:100%
+                        }
+                        .tutor{
+                            position: relative;
+                            // top:4em;
+                            left:3em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    margin:0 0 15em 0;
+                    .all_links{
+                        img{
+                            margin:0 0 0 13em;
+                        }
+                        .join{
+                            white-space: nowrap;
+                            position: relative;
+                            right:-7em;
+                        }
+                        .help_link{
+                            h2{
+                                white-space: nowrap;
+                            }
+                            position: relative;
+                            right:14em;
+                            top:13em;
+                            ul{
+                                a{
+                                    white-space: nowrap;
+                                }
+                            }
+                        }
+                        .social{
+                            h2{
+                                white-space: nowrap;
+                            }
+                            width:80%;
+                            position: relative;
+                            right:12em;
+                            top:13em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                // margin:0 0 0 -9em;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    li{
+                        padding:0 -2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:0) and (max-width:379px) {
+    body{
+        .first-page{
+            margin:0 0 0 1em;
+            width:100vw;
+            display: flex;
+            flex-direction: column;
+            .gd{
+                p{
+                    width:100vw;
+                }
+            }
+            .right{
+                height:100%;
+                .number{
+                    display: flex;
+                    flex-direction: column;
+                    margin:0 0 0 -21em;
+                }
+            }
+        }
+        .page-two{
+            .top, .bottom{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width:100%;
+
+                }
+            }
+        }
+        .images{
+            .image{
+                display: grid;
+                grid-template-columns: 42% 42%;
+                margin:1em 0 0 2.5em;
+                .six_image{
+                    width:70%;
+                    height:50%;
+                }
+            }
+        }
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                    }
+                    .common{
+                        position: relative;
+                        left:5em;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        .start{
+                            position: relative;
+                            top:3em;
+                            left:-12em;
+                            width:103%;
+                            margin:1em 0;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:2em;
+                            left:-6em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                    .social{
+                        ol{
+                            li{
+                                a{
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}

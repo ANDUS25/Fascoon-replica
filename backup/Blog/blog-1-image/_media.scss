@@ -1,0 +1,136 @@
+@media (min-width:1800px) and (max-width:2560px) {
+    .all-div{
+        margin: 3em auto;
+        width:50%
+    }
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .all-div{
+        margin:1em .8em 1em .8em;
+        .d-1{
+            .main-div{
+                .date{
+                    width:11%;
+                }
+            }
+        }
+        .data{
+            .data-2{
+                ul{
+                    .form-data{
+                        display: flex;
+                        flex-direction: column;
+                        margin:0 -2em;
+                        div{
+                            input{
+                                width:75vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:0px) and (max-width:425px){
+    .all-div{
+        margin:1em .8em 1em .8em;
+        .d-1{
+            .main-div{
+                .date{
+                    width:11%;
+                    margin:-2em 0em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:0px) and (max-width:425px){
+    .all-div{
+        margin:1em .8em 1em .8em;
+        .d-1{
+            .main-div{
+                .date{
+                    width:15%;
+                    margin:-2em 0em;
+                }
+            }
+            .data{
+                h1{
+                    font-size: 1.2em;;
+                }
+            }
+        }
+    }
+    .images{
+        .image{
+            display: grid;
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
+            .six_image{
+                width:70%;
+                height:50%;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
+                h1{
+                    white-space: nowrap;
+                    margin:0 0 0 -.5em;
+                }
+                .common{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    top:-.5em;
+                    right:-6em;
+                        .start{
+                        position: relative;
+                        top:3em;
+                        left:-12em;
+                        margin:1em 0;
+                        width:103%;
+                    }
+                    .tutor{
+                        position: relative;
+                        top:2em;
+                        left:-6em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,1522 @@
+@media (min-width:1800px) and (max-width:2560px) {
+    body{
+        header{
+            .imgclass{
+            .main_para{
+                margin:0 0 0 51em;
+            }
+            }
+        }
+        .page-2{
+            margin:10em 15em;
+        }
+        .page-3{
+            .blue-content{
+                display: grid;
+                grid-template-columns: 20vw 20vw 20vw;
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    width:60%;
+                    margin: 0 5em;
+                }
+            }
+        }
+        .page-4{
+            .img_con{
+                img{
+                    margin:0 38em;
+                    width:50%
+                }
+            }
+            div{
+                width:25vw;
+            }
+        }
+        .page-5{
+            .info{
+                .after{
+                    margin:0 10em;
+                }
+                .sides{
+                    width:50vw;
+                    .div-right{
+                        left:117em;
+                    }
+                    .div-left{
+                        position: relative;
+                        left:41em;
+                        width:70vw;
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .para{
+                    .after{
+                        margin:0 9em;
+                    }
+                }
+                .infoo{
+                    width: 50vw;;
+                    margin:0 45em;
+                }
+            }
+        }
+        .page-7{
+            .payment{
+                .after{
+                    margin:0 7em;
+                }
+                .offer1{
+                    left: 65em;
+                }
+                .offer2{
+                    left: 106em;
+                }
+                .main{
+                    margin:0 41em;
+                    width:50vw;
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height: 35em;
+                .after{
+                    margin:0 7em;
+                }
+                .main_block{
+                    margin: 0 43em;
+                    width:50vw;
+                    .more{
+                        margin:0 0 0 39em;
+                    }
+                }
+            }
+        }
+        .page-9{
+            margin:0 13em;
+            .blog{
+                .blog_div{
+                    justify-content: space-around;
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                margin:0 40em;
+                .blue_back{
+                    position: relative;
+                    top:-6em;
+                    width:94em;
+                    .common{
+                        width:58%;
+                    }
+                }
+            }
+        }
+        .base{
+            margin:0 41em   ;
+        }
+    }
+}
+
+@media (min-width:1300px) and (max-width:1590px) {
+    body{
+        .page-3{
+            .blue-content{ 
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .page-4{
+            .img_con{
+                img{
+                    width:81%;
+                    margin:0 0 0 7em;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                .sides{
+                    .div-left{
+                        display: grid;
+                        grid-template-columns: 32% 32%;
+                        left:0;
+                        .blocks{
+                            h1{
+                                font-size: 2em;
+                            }
+                            p{
+                                font-size: 1.2em;
+                            }
+                        }
+                    }
+                    .div-right{
+                        position: relative;
+                        left:67em;
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    margin: 0 7em;
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                }
+            }
+        }
+        .page-7{
+            .payment{
+                .offer2{
+                    left:60em;
+                }
+                .offer1{
+                    left:17em;
+                }
+                .main{
+                    margin: 0;
+                    justify-content: space-around;
+                    .left{
+                        width:35em;
+                    }
+                    .right{
+                        margin:0 ;
+                        width:35em;
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                .main_block{
+                    margin:0 0 0 12em;
+                    .more{
+                        width:21%;
+                    }
+                }
+            }
+        }
+        .page-9{
+            .blog {
+                .blog_div{
+                    display: grid;
+                    grid-template-columns: 32% 32% 32%;
+                   .r-image{
+                       img{
+                           width: 100%;
+                       }
+                   }
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    position: relative;
+                    top:-2em;
+                    left:-2em;
+                    .common{
+                        .start, .tutor{
+                            width:15em;
+                        }
+                    }
+                }
+                .help{
+                    margin:5em 6em;
+                    .all_links{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+                hr{
+                    width:90vw;
+                    margin:0 0 0 -32em;
+                }
+            }
+        }
+        .base{
+            margin:0 1.5em;
+        }
+    }
+}
+
+@media (min-width:1030px) and (max-width:1230px) {
+    body{
+        .page-3{
+            .blue-content{ 
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                .sides{
+                    .div-left{
+                        display: grid;
+                        grid-template-columns: 32% 32%;
+                        .blocks{
+                            h1{
+                                font-size: 2em;
+                            }
+                            p{
+                                font-size: 1.2em;
+                            }
+                        }
+                    }
+                    .div-right{
+                        position: relative;
+                        left:53em;
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    margin: 0 7em;
+                    width:90vw;
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                }
+            }
+        }
+        .page-7{
+            .payment{
+                .offer2{
+                    left:60em;
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    .common{
+                        .start, .tutor{
+                            width:15em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            margin:0 10em;
+        }
+    }
+}
+
+@media (min-width:780px) and (max-width:1024px) {
+    body{
+        header{
+            .imgclass{
+                .z-index{
+                    z-index: 999;
+                }
+                .main_para{
+                    .call{
+                        width:40%;
+                        position: relative;
+                        top:-7em;
+                        right:-31em;
+                    }
+                }
+            }
+        }
+        .page-2{
+            .row{
+                .images{
+                    .im{
+                        .boy-2{
+                            margin:-5em 0 0 22em;
+                        }
+                        .boy-3{
+                            margin:3em 0 4em 5em;
+                        }
+                        .boy-4{
+                            margin:3em 0 4em 2em;
+                        }
+                    }
+                }
+            }
+        }
+        .page-3{
+            .blue-content{
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    p{
+                        font-size: .7em;
+                    }
+                }
+            }
+        }
+        .page-4{
+            .img_con{
+                img{
+                    width:50vw;
+                }
+                div{
+                    margin: 0 0 0 8em;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                .sides{
+                    .div-right{
+                        margin-left: -1em;
+                    }
+                    .div-left{
+                        .blocks{
+                            h1{
+                                font-size: 1.7em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                }
+            }
+        }
+        .page-7{
+            .payment{
+                .offer1{
+                    left:12em;
+                }
+                .offer2{
+                    left:37em;
+                }
+                .main{
+                    .left{
+                        height:28.5em;
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height:36em;
+                .main_block{
+                    margin:0 1em;
+                    width:90vw;
+                    .main_block_head{
+                        h3{
+                            font-size:2em;
+                        }
+                        .pm{
+                            button{
+                                i{
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .more{
+                        width:69%;
+                        margin:0 0 0 30em;
+                    }
+                    .para{
+                        margin:0;
+                    }
+                }
+            }
+        }   
+        .foot{
+            .main_content{
+                .blue_back{
+                    width:90vw;
+                    .common{
+                        .start{
+                            margin:0 0 0 -3em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            .right{
+                margin:0 0 0 -2em;
+            }
+        }
+    }
+}
+
+@media (min-width:430px) and (max-width:769px) {
+    body{
+        header{
+            .imgclass{
+                justify-content: space-around;
+                .image{
+                    margin: 0 0 0 -8em;
+                }
+                .navbar{
+                    .nav-items, .apply{
+                        display: none;
+                    }
+                    .nav-items{
+                        .drop-nav{
+                            .dp-nav{
+                                margin:2em
+                            }
+                        }
+                    } 
+                }
+                .line{
+                    display: flex;
+                    flex-direction: column;
+                    width:5%;
+                    font-size: .2em;
+                    .lines{
+                        width: 35px;
+                        height: 5px;
+                        background-color: black;
+                        margin: 4px 0;
+                    }
+                }
+                .main_para{
+                    margin:-5em 0 0 0;
+                    .get{
+                        margin:3em 0 0 0 ;
+                    }
+                    .call{
+                        width:50%;
+                        margin:-4em 0 0 19em ;
+                    }
+                }
+            }
+        }
+        .page-2{
+            .row{
+                .images{
+                    display: none;
+                }
+                .images-data{
+                    width:75vw;
+                    margin:7em 0 0 3em;
+                }
+
+                .dots{
+                    display: flex;
+                    flex-direction: row;
+                    position: relative;
+                    top:20em;
+                    margin:0 0 0 -4em;
+                    .dot{
+                        a{
+                            text-decoration: none;
+                            color: blue;
+                        }
+                        background-color: blue;
+                        margin:0 2%;
+                        height:1em;
+                        width:1.5em;
+                        border-radius: 50%;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+        .page-3{
+            .blue-content{
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .mp-1{
+                    justify-content: start;
+                }
+            }
+        }
+        .page-4{
+            .img_con{
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin: 0 0 0 2em;
+                    width:90vw;
+                    height: 40%;
+                }
+                div{
+                    margin: 1em 0 0 2em;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                height:94em;
+                .sides{
+                    .div-left{
+                        justify-content: space-around;
+                        .blocks{
+                            width:40vw;
+                        }
+                    }
+                    .div-right{
+                        position: relative;
+                        top:3em;
+                        left:15em
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                    .blo{
+                        // width:45vw;
+                        column-gap: 1em;
+                    }
+                }
+            }
+        }
+        .page-7{
+            margin:5em 0 12 em 0;
+            .payment{
+                height:58em;
+                .offer1{
+                    left:19em;
+                    top:3em;
+                }
+                .offer2{
+                    left:11.3em;
+                    top:33em;
+                }
+                .main{
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-around;
+                    .left{
+                        height:24em;
+                        margin:1.5em 0;
+                        .number{
+                            font-weight: bold;
+                        }
+                    }
+                    .right{
+                        height:15.8em;
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height:38em;
+                .main_block{
+                    margin:0 1em;
+                    width:90vw;
+                    .main_block_head{
+                        h3{
+                            font-size:2em;
+                        }
+                        .pm{
+                            button{
+                                i{
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .more{
+                        width:69%;
+                        margin:0 0 0 22em;
+                    }
+                    .para{
+                        margin:0;
+                    }
+                }
+            }
+        }
+        .page-9{
+            .blog{
+                .blog_div{
+                    display: flex;
+                    flex-direction: column;
+                    .one, .two, .three{
+                        margin:2em 4em;
+                        .r-image{
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .images{
+                .image{
+                    justify-content: space-between;
+                    .six_image{
+                        margin:0 .2em;
+                    }
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    display: flex;
+                    flex-direction: column;
+                    width:90vw;
+                    h1{
+                        position: relative;
+                        right: -3em;
+                    }
+                    .common{
+                        width:90vw;
+                        margin:.5em -4.5em;
+                        .start{
+                            position: relative;
+                            left:7em;
+                            width:30%;
+                            height: 3em;
+                        }
+                        .tutor{
+                            position: relative;
+                            right:-7em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                position: relative;
+                right:-16em;
+                width: 50%;
+            }
+            .left{
+                ul{
+                    margin:0 9em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:380px) and (max-width:425px) {
+    body{
+        header{
+            .imgclass{
+                background-image: url("images/img.jpg");
+                background-size:cover;
+                height:100%;
+                .bt-nav{
+                    .nav-img{
+                        img{
+                            width:3em;
+                        }
+                    }
+                }
+                .main_para{
+                    margin:0 0 0 1em;
+                    .call{
+                        position: relative;
+                        top:-2.5em;
+                        right: -1em;
+                    }
+                }
+            }
+        }
+        .page-2{
+            margin:5em 0;
+            .row{
+                .images{
+                    margin:0;
+                    .im{
+                        display: none;
+                    }
+                }
+                .images-data{
+                    width:95vw;
+                    position: relative;
+                    top:-8em;
+                    left:-10em;
+                    margin-bottom:-5em
+                }
+            }
+        }
+        .page-3{
+            .blue-content{
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                    h1{
+                        font-size: 4em;
+                        font-weight: bold;
+                    }
+                    span{
+                        margin: .5em 0;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .page-4{
+            .img_con{
+                display: flex;
+                flex-direction: column;
+                margin: 0 0 0 -3em;
+                img{
+                    width:90vw;
+                }
+                div{
+                    margin:.5em 5.5em;
+                    p, ul{
+                        font-size: 1.2em;
+                        width:90vw;
+                    }
+                }
+            }
+        }
+        .page-5{
+            .info{
+                height:119em;
+                .after{
+                    margin:0;
+                }
+                .sides{
+                    .div-left{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        .blocks{
+                            width: 80vw;
+                        }
+                    }
+                    .div-right{
+                        position: relative;
+                        left:2em;
+                        top:0em;
+                    }
+                }
+            }
+        }
+        .page-6{
+            margin: 5em 0 38em 0;
+            .basic-info{
+                .infoo{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 0 0 1em;
+                    text-align: center;
+                }
+            }
+        }
+        .page-7{
+            margin:14em 0 9em 0;
+            .payment{
+                .after{
+                    margin:0 0 0 -.7em;
+                    white-space: nowrap;
+                }
+                .offer1{
+                    top:1em;
+                    left:9em
+                }
+                .offer2{
+                    top:42em;
+                    left:1em
+                }
+                .main{
+                    width:95vw;
+                    margin:0 0 0 -3.5em;
+                    display: flex;
+                    flex-direction: column;
+                    .left{
+                        height:31.5em;
+                        margin:0 0 4em 0;
+                        .paraG-1{
+                            padding:1.5em .7em;
+                            .subsbject{
+                                position: relative;
+                                top:2em;
+                                left:-19em;
+                                white-space: nowrap;
+                            }
+                        }
+                        .paraG-2, .paraG-3, .paraG-4{
+                            .subsbject{
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    .right{
+                        height:15.7em;
+                        .paraG-1{
+                            margin:.4em ;
+                        }
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height:60em;
+                margin:21em 0; 
+                .main_block{
+                    margin:0 1em;
+                    width:90vw;
+                    .main_block_head{
+                        h3{
+                            font-size:1.8em;
+                        }
+                        .pm{
+                            button{
+                                i{
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .more{
+                        width:69%;
+                        margin:0 0 0 10em;
+                    }
+                    .para{
+                        margin:0;
+                    }
+                }
+            }
+        }
+        .page-9{
+            .blog{
+                margin:-16em 0 -5em 0;
+                .blog_div{
+                    display: flex;
+                    flex-direction: column;
+                    margin:2em 0 2em 1em;
+                    .one, .two, .three{
+                        margin:2em 0 2em 2em;
+                        width:80vw;
+                        .r-image{
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .images{
+                .image{
+                    width:90%;
+                    .four{
+                        animation: none;
+                    }
+                    .six_image{
+                        margin: 0;
+                    }
+                    margin: 0 0 0 -.5em;
+                }
+            }
+        }
+        .foot{
+           .main_content{
+               .blue_back{
+                   border-radius: 10em;
+                   width:100vw;
+                   padding:-.5em 0 0 0;
+                    h1{
+                        margin:0 0 0 .5em;
+                        white-space: nowrap;
+                    }
+                    .common{
+                        display: flex;
+                        flex-direction: column;
+                        .start{
+                            position: relative;
+                            top:4em;
+                            left:-12em;
+                            width:100%
+                        }
+                        .tutor{
+                            position: relative;
+                            // top:4em;
+                            left:3em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    margin:0 0 15em 0;
+                    .all_links{
+                        img{
+                            margin:0 0 0 13em;
+                        }
+                        .join{
+                            white-space: nowrap;
+                            position: relative;
+                            right:-7em;
+                        }
+                        .help_link{
+                            h2{
+                                white-space: nowrap;
+                            }
+                            position: relative;
+                            right:14em;
+                            top:13em;
+                            ul{
+                                a{
+                                    white-space: nowrap;
+                                }
+                            }
+                        }
+                        .social{
+                            h2{
+                                white-space: nowrap;
+                            }
+                            width:80%;
+                            position: relative;
+                            right:12em;
+                            top:13em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                // margin:0 0 0 -9em;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    li{
+                        padding:0 -2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:330px) and (max-width:379px) {
+    body{
+        header{
+            .imgclass{
+                background-size: cover;
+                margin:0 0 0 -4em;
+                .z-index{
+                    .bt-nav{
+                        margin:0 0 0 4em;
+                        .nav-img{
+                            img{
+                                width:80%;
+                            }
+                        }
+                    }
+                }
+                .main_para{
+                    .main_header{
+                        font-size: 2.5em;
+                    }
+                    .call{
+                        width:60vw;
+                    }
+                }
+            }
+        }
+        .page-2{
+            margin:5em 0;
+            .row{
+                .images{
+                    margin:0;
+                    .im{
+                        display: none;
+                    }
+                }
+                .images-data{
+                    margin:0 0 0 -4em;
+                }
+            }
+        }
+        .page-3{
+            .blue-content{
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            }
+        }
+        .page-4{
+            .img_con{
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin:0 0 0 2em;
+                    width:80vw;
+                }
+                div{
+                    margin:1em 0 0 .8em;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                height:112em;
+                .sides{
+                    .div-left{
+                        display: grid;
+                        grid-template-columns: 45% 45% ;
+                    }
+                    .div-right{
+                        position: relative;
+                        top:-2em;
+                        left:.5em;
+                        width:90vw;
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 0 0 1em;
+                    text-align: center;
+                }
+                .para{
+                    h1{
+                        margin: 0 0 0 1em;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+        .page-7{
+            margin:35em 0 23em 0;
+            .payment{
+                .offer2{
+                    left:-1em;
+                    top:51em;
+                }
+                .offer1{
+                    top:9em;
+                    left:5em;
+                }
+                .after{
+                    font-size: 2em;
+                    white-space: nowrap;
+                    margin: 0 0 -4em -1em;
+                }
+                .main{
+                    width:95vw;
+                    margin:2em 0 2em -4.5em;
+                    display: flex;
+                    flex-direction: column;
+                    .right{
+                        height:17.7em;
+                    }
+                    .left{
+                        height:29.5em;
+                        margin:5em 0;
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height:60em;
+                .main_block{
+                    margin:0 1em;
+                    width:90vw;
+                    .main_block_head{
+                        h3{
+                            font-size:1.5em;
+                        }
+                        .pm{
+                            button{
+                                i{
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .more{
+                        width:69%;
+                        margin:0 0 0 8em;
+                    }
+                    .para{
+                        margin:0;
+                    }
+                }
+            }
+        }
+        .page-9{
+            margin:3em 0 0 0;
+            .blog{
+                h1{
+                    width:90%;
+                    margin:0 0 0 .5em;
+                }
+                .blog_div{
+                    display: flex;
+                    flex-direction: column;
+                    margin:2em 0 2em -1em;
+                    .one, .two, .three{
+                        margin: 2em 0 2em 2em;
+                        width:80vw;
+                        .r-image{
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .images{
+                .image{
+                    display: grid;
+                    grid-template-columns: 42% 42%;
+                    margin:1em 0 0 2.5em;
+                    .six_image{
+                        width:70%;
+                        height:50%;
+                    }
+                }
+            }
+        }
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                    }
+                    .common{
+                        position: relative;
+                        left:5em;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        .start{
+                            position: relative;
+                            top:3em;
+                            left:-12em;
+                            width:103%;
+                            margin:1em 0;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:2em;
+                            left:-6em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:0px) and (max-width:320px) {  
+    body{
+        header{
+            .imgclass{
+                background-size: cover;
+                margin:0 0 0 -4em;
+                .z-index{
+                    .bt-nav{
+                        margin:0 0 0 4em;
+                        .nav-img{
+                            img{
+                                width:80%;
+                            }
+                        }
+                    }
+                }
+                .main_para{
+                    .main_header{
+                        font-size: 2.5em;
+                    }
+                    .call{
+                        width:60vw;
+                    }
+                }
+            }
+        }
+        .page-2{
+            margin:5em 0;
+            .row{
+                .images{
+                    margin:0;
+                    .im{
+                        display: none;
+                    }
+                }
+                .images-data{
+                    margin:0 0 0 -4em;
+                }
+            }
+        }
+        .page-3{
+            .blue-content{
+                .main-para{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            }
+        }
+        .page-4{
+            .img_con{
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin:0 0 0 2em;
+                    width:80vw;
+                }
+                div{
+                    margin:1em 0 0 .8em;
+                }
+            }
+        }
+        .page-5{
+            .info{
+                height:112em;
+                .sides{
+                    .div-left{
+                        display: grid;
+                        grid-template-columns: 45% 45% ;
+                    }
+                    .div-right{
+                        position: relative;
+                        top:-2em;
+                        left:.5em;
+                        width:90vw;
+                    }
+                }
+            }
+        }
+        .page-6{
+            .basic-info{
+                .infoo{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 0 0 1em;
+                    text-align: center;
+                }
+                .para{
+                    h1{
+                        margin: 0 0 0 1em;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+        .page-7{
+            margin:35em 0 23em 0;
+            .payment{
+                .offer2{
+                    left:4em;
+                    top:51em;
+                }
+                .offer1{
+                    top:12em;
+                    left:4em;
+                }
+                .after{
+                    font-size: 2em;
+                    white-space: nowrap;
+                    margin: 0 0 -5em -1em;
+                }
+                .main{
+                    width:95vw;
+                    margin:2em 0 2em -4.5em;
+                    display: flex;
+                    flex-direction: column;
+                    .right{
+                        height:19em;
+                    }
+                    .left{
+                        height:31.5em;
+                        margin:5em 0;
+                    }
+                }
+            }
+        }
+        .page-8{
+            .faq{
+                height:62em;
+                .main_block{
+                    margin:0 1em;
+                    width:90vw;
+                    .main_block_head{
+                        h3{
+                            font-size:1.5em;
+                        }
+                        .pm{
+                            button{
+                                i{
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .para{
+                        margin:0;
+                    }
+                    .more{
+                        width:69%;
+                        margin:0 0 0 6em;
+                    }
+                }
+            }
+        }
+        .page-9{
+            margin:3em 0 0 0;
+            .blog{
+                h1{
+                    width:90%;
+                    margin:0 0 0 .5em;
+                }
+                .blog_div{
+                    display: flex;
+                    flex-direction: column;
+                    margin:2em 0 2em -1em;
+                    .one, .two, .three{
+                        margin: 2em 0 2em 2em;
+                        width:80vw;
+                        .r-image{
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .images{
+                .image{
+                    display: grid;
+                    grid-template-columns: 42% 42%;
+                    margin:1em 0 0 2.5em;
+                    .six_image{
+                        width:70%;
+                        height:50%;
+                    }
+                }
+            }
+        }
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                        margin:0 0 0 -.5em;
+                    }
+                    .common{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        top:-.5em;
+                        right:-6em;
+                            .start{
+                            position: relative;
+                            top:3em;
+                            left:-12em;
+                            margin:1em 0;
+                            width:103%;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:2em;
+                            left:-6em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}

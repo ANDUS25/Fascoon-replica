@@ -1,0 +1,701 @@
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+.z-index .bt-nav {
+  background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0.3));
+}
+
+.z-index .bt-nav .nav-img {
+  width: 25%;
+}
+
+.z-index .bt-nav .nav-img img {
+  width: 28%;
+  margin: 1em 0 1em 3em;
+}
+
+.z-index .bt-nav .nav-t {
+  background-color: black;
+}
+
+.z-index .bt-nav .nav-c {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.z-index .bt-nav .nav-c .nav-it .nav-b a {
+  color: black;
+  font-weight: bold;
+}
+
+.z-index .bt-nav .nav-c .apply {
+  background-color: blue;
+  padding: .7em 1.5em;
+  border-radius: 1.5em;
+  white-space: nowrap;
+}
+
+.z-index .bt-nav .nav-c .apply a {
+  color: white;
+}
+
+div .own-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div .own-nav .own-img {
+  width: 70%;
+}
+
+div .own-nav .own-img img {
+  width: 11%;
+}
+
+.login {
+  width: 80vw;
+  margin: 5em 0 0 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .left, .login .right {
+  padding: 1em;
+  width: 36vw;
+  border-right: 1px solid gray;
+}
+
+.login .left .logo, .login .right .logo {
+  font-size: 3em;
+}
+
+.login .left label, .login .right label {
+  display: block;
+}
+
+.login .left label::after, .login .right label::after {
+  content: "*";
+  color: red;
+}
+
+.login .left input[type=email], .login .left input[type=password], .login .right input[type=email], .login .right input[type=password] {
+  width: 100%;
+  margin: 1em -0.4em;
+  padding: 1em 0;
+  border: 1px solid gray;
+  border-radius: 2em;
+}
+
+.login .left .regi, .login .right .regi {
+  display: block;
+}
+
+.login .left .regi button, .login .right .regi button {
+  -webkit-transition: all .5s linear .2s;
+  transition: all .5s linear .2s;
+  width: 100%;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+
+.login .left .regi button:hover, .login .right .regi button:hover {
+  background-color: black;
+  color: white;
+}
+
+.login .left .regii, .login .right .regii {
+  display: block;
+  -webkit-transition: all .5s linear .2s;
+  transition: all .5s linear .2s;
+  width: 90%;
+  padding: 1em 2em;
+  margin: 1em 0;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login .left .regii:hover, .login .right .regii:hover {
+  background-color: black;
+}
+
+.login .left .password, .login .right .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .left .be, .login .right .be {
+  text-align: center;
+  position: relative;
+}
+
+.login .left .be:before, .login .right .be:before {
+  content: "";
+  display: block;
+  width: 10em;
+  height: 3px;
+  background: #191970;
+  left: 2em;
+  top: 38%;
+  position: absolute;
+}
+
+.login .left .be:after, .login .right .be:after {
+  content: "";
+  display: block;
+  width: 10em;
+  height: 3px;
+  background: #191970;
+  right: 2em;
+  top: 51%;
+  position: absolute;
+}
+
+.login .left .buttons button, .login .right .buttons button {
+  border-radius: 2em;
+  margin: 2em 0;
+  width: 49%;
+  padding: 1em 2em;
+}
+
+.login .left .buttons button a, .login .right .buttons button a {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 15vw;
+  padding: 1em;
+  margin: 2em auto;
+  text-decoration: none;
+  color: white;
+  padding: 4em 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .left .buttons button a i, .login .left .buttons button a span, .login .right .buttons button a i, .login .right .buttons button a span {
+  font-size: 1.5em;
+  color: white;
+}
+
+.login .left .buttons .face, .login .right .buttons .face {
+  background-color: #111174;
+}
+
+.login .left .buttons .goo, .login .right .buttons .goo {
+  background-color: #4058c5;
+}
+
+.login .left {
+  padding: 1em 3em 0 0;
+}
+
+.login .right {
+  border-right: none;
+  margin: 0 0 0 2em;
+}
+
+.foot {
+  background-image: url("../../images/33.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.foot .main_content .help {
+  margin: 7rem 0;
+}
+
+.foot .main_content .help a {
+  color: inherit;
+}
+
+.foot .main_content .help .all_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 8em 0;
+}
+
+.foot .main_content .help .all_links .join ul {
+  padding: 20px 0px;
+}
+
+.foot .main_content .help .all_links .join ul a {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.foot .main_content .help .all_links .join ul a:hover {
+  color: #0d6edd;
+  margin: 0px 20px;
+  -webkit-transition: .2s ease-in-out .3s;
+  transition: .2s ease-in-out .3s;
+}
+
+.foot .main_content .help .help_link ul {
+  padding: 20px 0px;
+}
+
+.foot .main_content .help .help_link ul a {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.foot .main_content .help .help_link ul a:hover {
+  color: #0d6edd;
+  margin: 0px 20px;
+  -webkit-transition: .2s ease-in-out .3s;
+  transition: .2s ease-in-out .3s;
+}
+
+.foot .main_content .help .social ol {
+  padding: 20px 0px;
+  list-style: none;
+}
+
+.foot .main_content .help .social ol li {
+  padding: 10px 0px;
+}
+
+.foot .main_content .help .social ol li:hover {
+  color: #004987;
+}
+
+.base {
+  height: 50px;
+  padding: 20px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 65%;
+      grid-template-columns: 35% 65%;
+}
+
+.base a {
+  color: inherit;
+}
+
+.base .right {
+  margin: 0px 2.5rem;
+}
+
+.base .left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.base .left ul li {
+  list-style: none;
+}
+
+.base .left ul li a {
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+@media (min-width: 1800px) and (max-width: 2700px) {
+  div .own-nav .own-img {
+    width: 65%;
+  }
+  .login {
+    margin: 7em 0 5em 39em;
+    width: 50vw;
+  }
+  .login .left, .login .right {
+    width: 50%;
+  }
+  .foot .main_content {
+    margin: 0 40em;
+  }
+  .base {
+    margin: 0 41em;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1440px) {
+  div .own-nav .own-img {
+    width: 65%;
+  }
+  .login .left .buttons, .login .right .buttons {
+    width: 35vw;
+  }
+  .login .left .be::before, .login .right .be::before {
+    width: 9em;
+  }
+  .login .left .be::after, .login .right .be::after {
+    width: 9em;
+  }
+  .foot .main_content .help {
+    margin: 5em 6em;
+  }
+  .foot .main_content .help .all_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .foot .main_content hr {
+    width: 90vw;
+    margin: 0 0 0 -32em;
+  }
+  .base {
+    margin: 0 1.5em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  div .own-nav .own-img {
+    width: 55%;
+  }
+  .login {
+    width: 85vw;
+  }
+  .login .right .be, .login .left .be {
+    margin: 0 0 0 -2em;
+  }
+  .login .right .be:before, .login .left .be:before {
+    width: 6em;
+  }
+  .login .right .be:after, .login .left .be:after {
+    width: 6em;
+  }
+  .login .right .buttons, .login .left .buttons {
+    width: 49vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .right .buttons button, .login .left .buttons button {
+    margin: 1em 3em;
+  }
+  .login .left {
+    margin: 0 1em 0 -6em;
+    width: 40vw;
+  }
+  .login .right {
+    width: 40vw;
+  }
+  .base .right {
+    margin: 0;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  div .own-nav .own-img {
+    width: 37vw;
+  }
+  div .own-nav .own-img img {
+    width: 35%;
+  }
+  .login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .left, .login .right {
+    width: 90vw;
+    border: none;
+  }
+  .login .left .buttons, .login .right .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90vw;
+    margin: 0 0 0 -2em;
+  }
+  .login .left .be::before, .login .right .be::before {
+    width: 16em;
+  }
+  .login .left .be::after, .login .right .be::after {
+    width: 16em;
+  }
+  .login .left .regii, .login .right .regii {
+    width: 98%;
+  }
+  .login .right {
+    margin: 0 0 0 -6em;
+  }
+  .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .base .right {
+    position: relative;
+    right: -16em;
+    width: 50%;
+  }
+  .base .left ul {
+    margin: 0 9em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .login {
+    width: 64%;
+  }
+  .login .right .buttons, .login .left .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .right .buttons button, .login .left .buttons button {
+    width: 85vw;
+    margin: 1em 0 0 2em;
+  }
+  .login .right input[type=email], .login .right input[type=password], .login .left input[type=email], .login .left input[type=password] {
+    width: 90vw;
+  }
+  .login .right .be::after, .login .left .be::after {
+    width: 5em;
+  }
+  .login .right .be::before, .login .left .be::before {
+    width: 5em;
+  }
+  .login .left {
+    margin: 0 0 0 -8em;
+  }
+  .login .right {
+    margin: 0 0 0 -10em;
+  }
+  .login .right .password {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80vw;
+  }
+  .foot .main_content .help {
+    margin: 0 0 15em 0;
+  }
+  .foot .main_content .help .all_links img {
+    margin: 0 0 0 13em;
+  }
+  .foot .main_content .help .all_links .join {
+    white-space: nowrap;
+    position: relative;
+    right: -7em;
+  }
+  .foot .main_content .help .all_links .help_link {
+    position: relative;
+    right: 14em;
+    top: 13em;
+  }
+  .foot .main_content .help .all_links .help_link h2 {
+    white-space: nowrap;
+  }
+  .foot .main_content .help .all_links .help_link ul a {
+    white-space: nowrap;
+  }
+  .foot .main_content .help .all_links .social {
+    width: 80%;
+    position: relative;
+    right: 12em;
+    top: 13em;
+  }
+  .foot .main_content .help .all_links .social h2 {
+    white-space: nowrap;
+  }
+  .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .base .right {
+    margin: 0 0 0 -9em;
+    width: 53%;
+  }
+  .base .left {
+    white-space: nowrap;
+  }
+  .base .left ul li {
+    padding: 0 -2em;
+  }
+}
+
+@media (min-width: 0) and (max-width: 375px) {
+  div .own-nav .own-img img {
+    width: 35%;
+  }
+  .login {
+    width: 64%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .right, .login .left {
+    border: none;
+  }
+  .login .right .buttons, .login .left .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .right .buttons button, .login .left .buttons button {
+    width: 85vw;
+    margin: 1em 0 0 2em;
+  }
+  .login .right .buttons label, .login .left .buttons label {
+    white-space: normal;
+  }
+  .login .right input[type=email], .login .right input[type=password], .login .left input[type=email], .login .left input[type=password] {
+    width: 90vw;
+  }
+  .login .right .be, .login .left .be {
+    width: 100vw;
+  }
+  .login .right .be::after, .login .left .be::after {
+    width: 4em;
+  }
+  .login .right .be::before, .login .left .be::before {
+    width: 4em;
+  }
+  .login .left {
+    margin: 0 0 0 -9em;
+  }
+  .login .left .regii {
+    width: 90vw;
+  }
+  .login .right {
+    margin: 0 0 0 -10em;
+  }
+  .login .right .password {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80vw;
+  }
+  .login .right .regi {
+    width: 90vw;
+  }
+  .foot {
+    margin: 12em 0 -2em 0;
+  }
+  .foot .main_content .help .all_links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+    -ms-grid-rows: 33% 33%;
+        grid-template-rows: 33% 33%;
+  }
+  .foot .main_content .help .all_links img {
+    margin: 0;
+  }
+  .foot .main_content .help .all_links .join {
+    right: 0;
+  }
+  .foot .main_content .help .all_links .help_link {
+    right: 0;
+  }
+  .foot .main_content .help .all_links .social {
+    right: 0;
+  }
+  .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .base .right {
+    white-space: nowrap;
+    width: 53%;
+    margin: 0 0 0 5em;
+  }
+  .base .left {
+    white-space: nowrap;
+  }
+  .base .left ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+/*# sourceMappingURL=index.css.map */

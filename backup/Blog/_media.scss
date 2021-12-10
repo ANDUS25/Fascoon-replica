@@ -1,0 +1,347 @@
+@media (min-width:1800px) and (max-width:2560px) {
+    .all-div{
+        margin:2em 43em;
+        width:50%;
+    }
+}
+
+@media (min-width:780px) and (max-width:1024px) {
+    .all-div{
+        .d-2, .d-3{
+            .edu2{
+                width:12%;
+            }
+        }
+    }
+}
+
+@media (min-width:430px) and (max-width:768px) {
+    .all-div{
+        .d-1, .d-4{
+            .main-div{
+                .date{
+                    width:7vw;
+                }
+            }
+        }
+        .d-2, .d-3{
+            .main-div{
+                .date{
+                    .dates{
+                        width:15vw;
+                    }
+                }
+                
+            }
+            .edu2{
+                width:16%;
+            }
+        }
+    }
+}
+
+@media (min-width:380px) and (max-width:425px) {
+    .all-div{
+        .d-1, .d-4{
+            .main-div{
+                .date{
+                    width:10vw;
+                    margin: -2em 0 0 0;
+                }
+            }
+        }
+        .d-3, .d-2{
+            .date{
+                .dates{
+                    width:15vw;
+                }
+            }
+            .edu2{
+                width:30%;
+            }
+        }
+    }
+    .images{
+        .image{
+            width:90%;
+            .four{
+                animation: none;
+            }
+            .six_image{
+                margin: 0;
+            }
+            margin: 0 0 0 -.5em;
+        }
+    }
+    .foot{
+       .main_content{
+           .blue_back{
+               border-radius: 10em;
+               width:100vw;
+               padding:-.5em 0 0 0;
+                h1{
+                    margin:0 0 0 .5em;
+                    white-space: nowrap;
+                }
+                .common{
+                    display: flex;
+                    flex-direction: column;
+                    .start{
+                        position: relative;
+                        top:4em;
+                        left:-12em;
+                        width:100%
+                    }
+                    .tutor{
+                        position: relative;
+                        // top:4em;
+                        left:3em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                margin:0 0 15em 0;
+                .all_links{
+                    .join{
+                        white-space: nowrap;
+                        position: relative;
+                    }
+                    .help_link{
+                        h2{
+                            white-space: nowrap;
+                        }
+                        position: relative;
+                        top:13em;
+                        ul{
+                            a{
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    .social{
+                        h2{
+                            white-space: nowrap;
+                        }
+                        width:80%;
+                        position: relative;
+                        top:13em;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            // margin:0 0 0 -9em;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                li{
+                    padding:0 -2em;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:321px) and (max-width:375px) {
+    .all-div{
+        .d-1, .d-4{
+            .main-div{
+                .date{
+                    width:10vw;
+                    margin: -2em 0 0 0;
+                }
+            }
+            .data{
+                font-size: .8em;
+            }
+        }
+        .d-3, .d-2{
+            .date{
+                .dates{
+                    width:24vw;
+                }
+                .info{
+                    margin: 0 0 0 0.9em;
+                }
+            }
+            .edu2{
+                width:30%;
+            }
+        }
+    }
+    .images{
+        .image{
+            display: grid;
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
+            .six_image{
+                width:70%;
+                height:50%;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
+                h1{
+                    white-space: nowrap;
+                }
+                .common{
+                    position: relative;
+                    left:5em;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .start{
+                        position: relative;
+                        top:3em;
+                        left:-12em;
+                        width:103%;
+                        margin:1em 0;
+                    }
+                    .tutor{
+                        position: relative;
+                        top:2em;
+                        left:-6em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    } 
+}
+
+
+
+@media (min-width:0px) and (max-width:320px) {
+    .all-div{
+        .d-1, .d-4{
+            .main-div{
+                .date{
+                    width:14vw;
+                    margin: -2em 0 0 0;
+                }
+            }
+            .data{
+                font-size: .8em;
+                white-space: normal;
+            }
+        }
+        .d-3, .d-2{
+            .date{
+                .dates{
+                    width:24vw;
+                }
+                .info{
+                    margin: 0 0 0 0.9em;
+                }
+            }
+            .edu2{
+                width:37%;
+                margin: 0 0 0 4em;
+            }
+        }
+    }
+    .images{
+        .image{
+            display: grid;
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
+            .six_image{
+                width:70%;
+                height:50%;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
+                h1{
+                    white-space: nowrap;
+                    margin:0 0 0 -.5em;
+                }
+                .common{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    top:-.5em;
+                    right:-6em;
+                        .start{
+                        position: relative;
+                        top:3em;
+                        left:-12em;
+                        margin:1em 0;
+                        // width:30vw;
+                    }
+                    .tutor{
+                        position: relative;
+                        top:2em;
+                        left:-6em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    } 
+}

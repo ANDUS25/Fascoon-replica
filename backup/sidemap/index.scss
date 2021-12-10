@@ -1,0 +1,60 @@
+.main{
+    font-family: 'Nunito', sans-serif;
+    .site{
+        color: blue;
+        margin:3em 0 2em 4em ;
+    }
+    .float{
+        display: flex;
+        justify-content: space-around;
+        .left, .right{
+            display: flex;
+            flex-direction: column;
+            a{
+                width:100%;
+                display: inline;
+                padding:1em 0;
+                text-decoration: none;
+                transition: all .3s linear .2s;
+                color: rgb(53, 93, 224);
+                &:hover{
+                    text-decoration: underline;
+                }
+                &:visited{
+                    color: red;
+                }
+            }
+        }
+    }
+}   
+
+@media (min-width:1800px ) and (max-width:2560px) {
+    .main{
+        .site{
+            margin:4em 0 2em 16.5em;
+        }
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .main{
+        .site{
+            margin:4em 0 2em 1em;
+        }
+    }
+}
+@media (min-width:0) and (max-width:425px) {
+    .main{
+        .site{
+            margin:4em 0 2em 1em;
+        }
+    }
+    .float{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 1em;
+            margin:4em 0 0 0 ;
+        }
+    }
+}

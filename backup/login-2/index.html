@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="z-index">
+      <nav class="navbar navbar-expand-lg bt-nav navbar-dark">
+        <a class="navbar-brand nav-img" href="#">
+          <img src="../images/Logo-Design-PNG.png" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler bg-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-c" id="collapsibleNavbar">
+          <ul class="navbar-nav nav-it">
+            <li class="nav-item nav-b">
+              <a class="nav-link" href="../../about/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown nav-b nav-bb">
+              <a
+                class="nav-link dropdown-toggle own-nav-link"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+                >Course
+              </a>
+              <div class="dropdown-menu dm bg-secondary">
+                <a
+                  class="dropdown-item dmi"
+                  href="../../Course Details/index.html"
+                  >Course Detail</a
+                >
+                <a class="dropdown-item dmi" href="../../FAQ/index.html">FAQ</a>
+              </div>
+            </li>
+
+            <li class="nav-item nav-b">
+              <a class="nav-link" href="../../Placements/index.html"
+                >Placement</a
+              >
+            </li>
+            <li class="nav-item nav-b">
+              <a class="nav-link" href="../../Hire from us/index.html"
+                >Hire from us</a
+              >
+            </li>
+            <li class="nav-item nav-b">
+              <a class="nav-link" href="../../Blog/index.html">Blog</a>
+            </li>
+            <li class="nav-item nav-b">
+              <a class="nav-link" href="../../login-2/index.html">Login</a>
+            </li>
+          </ul>
+
+          <div class="apply">
+            <a href=""> Apply Now </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="login">
+      <div class="left">
+        <p><i class="fa fa-user-plus logo"></i> Register</p>
+
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" />
+
+        <label for="repeat">Password Repeat</label>
+        <input type="password" name="repeat-password" id="repeat-password" />
+
+        <a href="" class="regii"> REGISTER</a>
+
+        <p class="be">OR REGISTER WITH</p>
+
+        <div class="buttons">
+          <button class="face">
+            <a href=""
+              ><i class="fa fa-facebook-square"></i><span> Facebook </span></a
+            >
+          </button>
+          <button class="goo">
+            <a href=""> <i class="fa fa-google"></i><span> Google </span></a>
+          </button>
+        </div>
+      </div>
+
+      <div class="right">
+        <p><i class="fa fa-user logo"></i> Login</p>
+
+        <label for="email">Username or email</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="">password</label>
+        <input type="password" name="" id="" />
+
+        <a href="" class="regi"><button>LOG IN</button></a>
+
+        <div class="password">
+          <p class="check">
+            <input type="checkbox" name="remember" id="remember" />Remember me
+          </p>
+          <span><a href="">Lost Your Paassword?</a></span>
+        </div>
+        <p class="be">OR LOGIN WITH</p>
+
+        <div class="buttons">
+          <button class="face">
+            <a href=""
+              ><i class="fa fa-facebook-square"></i><span> Facebook </span></a
+            >
+          </button>
+          <button class="goo">
+            <a href=""><i class="fa fa-google"></i><span> Google </span></a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <div class="main_content">
+        <div class="help">
+          <div class="all_links">
+            <img
+              src="../images/LOGO-Design-PNG.png"
+              alt=""
+              height="50px"
+              width="100px"
+            />
+            <div class="join">
+              <h2>Join as a</h2>
+              <ul>
+                <a href="./tutor/index.html" id="hov">Tutor</a>
+                <a href="./student/index.html" id="hov">Student</a>
+              </ul>
+            </div>
+
+            <div class="help_link">
+              <h2>Help Links</h2>
+              <ul>
+                <a href="./Course Details/index.html" id="hov"
+                  >Course Details</a
+                >
+                <a href="../about/about.html">About Company</a>
+                <a href="../privay policy/index.html">Privay Policy</a>
+                <a href="../term/index.html">Terms</a>
+                <a href="../sidemap/index.html">Site Map</a>
+              </ul>
+            </div>
+
+            <div class="social">
+              <h2>Social Media</h2>
+              <ol>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/Fascoon/"
+                    ><i class="fa fa-facebook" style="font-size: 24px"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/fascoon/"
+                    id="hov"
+                    target="_blank"
+                    ><i class="fa fa-linkedin" style="font-size: 24px"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/fascoon/?hl=en"
+                    id="hov"
+                    target="_blank"
+                    ><i class="fa fa-instagram" style="font-size: 24px"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" id="hov" target="_blank"
+                    ><i class="fa fa-twitter-square" style="font-size: 24px"></i
+                  ></a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </footer>
+
+    <footer class="base">
+      <div class="right">
+        <p>&#169;2021 Fascoon All right Reserved</p>
+      </div>
+      <div class="left">
+        <ul>
+          <li><a href="./about/about.html">About Company</a></li>
+          <li><a href="./privay policy/index.html">Privacy policy</a></li>
+          <li><a href="./term/index.html">Terms</a></li>
+          <li><a href="./sidemap/index.html">Site Map</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,337 @@
+*{
+  padding: 0 ;
+  margin: 0;
+}
+
+$color :#004987;
+$h1_font_size:40px;
+$white_color:white;
+$for_ul:20px 0px;
+$txt_deco:none;
+$anchor_color:black;
+
+// =====================================all mixin functions start from here===========================
+@mixin h1_thing{
+  font-size: 40px;
+  color:#004987 ;
+  margin: 0rem 5rem;
+  padding: 2rem 0px;
+}
+
+@mixin start_tutor{
+  border-radius: 30px;
+  padding:15px;
+  font-size: 18px;
+}
+
+@mixin start_a{
+  text-decoration: none;
+  color:$white_color;
+}
+
+@mixin for_a{
+  padding:10px 0px;
+  display: flex;
+  text-decoration: none;
+}
+
+@mixin hover_effect{
+  color:rgb(13, 110, 221);
+  margin:0px 20px ;
+  transition: .2s ease-in-out .3s;
+}
+
+@mixin offer-price{
+  text-transform: uppercase;
+  background-color: rgb(65, 155, 65);
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top:10px;
+  padding:10px;
+  color: $white_color;
+  border:1px solid $anchor_color;
+  font-size: 13px;
+}
+// ===================================== all mixin functions end here =======================================
+
+
+// ==================================== animation ===========================================================
+@keyframes rotate{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+.bt-nav{
+  background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
+  .nav-img{
+      width:25%;
+      img{
+          width:28%;
+          margin:1em 0 1em 3em;
+      }
+  }
+  .nav-t{
+      background-color:black
+  }
+  .nav-c{
+      justify-content: space-around;
+      .nav-it{
+          .nav-b{
+              a{
+                  color:black;
+                  font-weight: bold;
+              }
+          }
+      }
+      .apply{
+          background-color: blue;
+          padding:.7em 1.5em ;
+          border-radius: 1.5em;
+          a{
+              color: $white_color;
+          }
+      }
+  }
+}
+.all-div {
+  font-family: "Nunito", sans-serif;
+  width: 85%;
+  margin: 5em auto;
+  .d-1 {
+    display: flex;
+    .main-div {
+      height: 100%;
+      margin: 0 5em 0 0;
+      .date {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 2.5em;
+        text-align: center;
+        padding: 0.5em 1em;
+        box-shadow: 2px 3px 5px black;
+        .big {
+          font-size: 1.8em;
+        }
+      }
+    }
+    .edu1 {
+      position: relative;
+      top: -1.5em;
+      a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+      }
+    }
+    .data {
+      h1 {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      p {
+        a {
+          text-decoration: none;
+        }
+        .leave {
+          color: gray;
+        }
+      }
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+  img {
+    margin: 0 0 0 25%;
+    width: 50%;
+  }
+  .datas{
+      font-size: 1.2em;;
+  }
+  .comment {
+    .mark {
+      display: block;
+      margin: 2em 0;
+    }
+    textarea {
+      width: 100%;
+    }
+    .form-data {
+      display: flex;
+      flex-direction: row;
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 1em 2em;
+        label {
+          padding: 1em 0;
+        }
+        input {
+          height: 3em;
+        }
+        label::after {
+          content: "*";
+          color: red;
+        }
+      }
+    }
+    .check {
+      margin: 2em 0;
+    }
+
+    button {
+      background-color: blue;
+      padding: 1.5em 1.5em;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.images {
+  height: 250px;
+  width: 100%;
+  h1 {
+    @include h1_thing;
+  }
+  .image {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 4rem;
+    .six_image {
+      display: flex;
+      margin: 0 -3em;
+      align-self: center;
+    }
+    .four {
+      animation: rotate 5s linear 0.2s infinite;
+    }
+  }
+}
+// ===============================
+// footer start from here
+// ================================
+.foot {
+  background-image: url("../../images/33.png");
+  background-size: cover;
+  background-position: center;
+
+  .main_content {
+    .blue_back {
+      background-color: $color;
+      width: 75vw;
+      display: flex;
+      padding: 3rem;
+      margin: 100px auto;
+      border-radius: 90px 90px;
+      h1 {
+        color: white;
+        width: 38vw;
+      }
+      .common {
+        display: flex;
+        .start {
+          background-color: rgb(214, 184, 12);
+          @include start_tutor;
+          a {
+            @include start_a;
+          }
+        }
+        .tutor {
+          background-color: rgb(98, 67, 170);
+          margin: 0px 30px;
+          @include start_tutor;
+          a {
+            @include start_a;
+          }
+        }
+      }
+    }
+    .help {
+      margin: 7rem 0;
+      a {
+        color: inherit;
+      }
+      .all_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .join {
+          ul {
+            padding: $for_ul;
+            a {
+              @include for_a();
+              transition: all linear 0.3s;
+            }
+            a:hover {
+              @include hover_effect();
+            }
+          }
+        }
+      }
+      .help_link {
+        ul {
+          padding: $for_ul;
+          a {
+            @include for_a;
+            transition: all linear 0.3s;
+          }
+          a:hover {
+            @include hover_effect();
+          }
+        }
+      }
+      .social {
+        ol {
+          padding: $for_ul;
+          list-style: none;
+          li {
+            padding: 10px 0px;
+            &:hover {
+              color: #004987;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.base {
+  height: 50px;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  a {
+    color: inherit;
+  }
+
+  .right {
+    margin: 0px 2.5rem;
+  }
+  .left {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+@import "media"

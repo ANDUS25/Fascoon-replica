@@ -1,0 +1,163 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hiring-sec {
+    margin: 0;
+    padding: 0;
+  }
+  .steps.hire {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+  }
+  .steps.hire .steps {
+    padding: 10px;
+    max-width: 300px;
+  }
+  .faq-sec .faqs {
+    margin: 40px 0;
+  }
+  .faq-sec .faqs .que-ans {
+    margin: 0 8rem;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hiring-sec {
+    margin: 0;
+    padding: 0;
+  }
+  .hiring-sec .head-process {
+    margin-bottom: 20px;
+  }
+  .steps-hire {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+  }
+  .steps-hire .steps {
+    padding: 10px;
+    max-width: 300px;
+  }
+  .faq-sec .faqs {
+    margin: 40px 0;
+  }
+  .faq-sec .faqs .que-ans {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 341px) and (max-width: 427px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .hiring-sec {
+    margin: 10px;
+    padding: 0;
+  }
+  .hiring-sec .steps-hire {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 100%;
+  }
+  .hiring-sec .steps-hire .steps {
+    padding: 10px;
+    max-width: 300px;
+  }
+  .faq-sec .faqs {
+    margin: 20px 0;
+  }
+  .faq-sec .faqs .que-ans {
+    margin: 0 0;
+  }
+  .faq-sec .faqs .que-ans .que-faq {
+    display: -ms-grid;
+    display: grid;
+    gap: 10px;
+  }
+  .faq-sec .faqs .que-ans .que-faq ion-icon {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 165%;
+  }
+  .hiring-sec {
+    width: 150%;
+    margin: 5px;
+    padding: 0;
+  }
+  .hiring-sec .steps-hire {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hiring-sec .steps-hire .steps {
+    padding: 10px;
+    margin-left: 4em;
+  }
+  .faq-sec {
+    width: 150%;
+  }
+  .faq-sec .faqs {
+    margin: 20px 0;
+  }
+  .faq-sec .faqs .que-ans {
+    margin: 0 0;
+  }
+  .faq-sec .faqs .que-ans .que-faq {
+    display: -ms-grid;
+    display: grid;
+    gap: 10px;
+  }
+  .faq-sec .faqs .que-ans .que-faq ion-icon {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=media.css.map */
