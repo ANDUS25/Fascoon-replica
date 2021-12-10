@@ -12,7 +12,7 @@ $h1_font_size:40px;
 $white_color:white;
 $for_ul:20px 0px;
 $txt_deco:none;
-$anchor_color:black;
+$anchor_color:black; 
 
 // =====================================all mixin functions start from here===========================
 @mixin h1_thing{
@@ -714,5 +714,5 @@ body{
     }
 }
 
-@import "index_media"
+@import "style_media"
 
