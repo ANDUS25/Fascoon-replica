@@ -1,10 +1,36 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    &::selection{
+        color:red;
+        background-color: black;
+    }
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+$white_color:white;
 $color :#004987;
 $h1_font_size:40px;
-$white_color:white;
 $for_ul:20px 0px;
 $txt_deco:none;
-$anchor_color:black;
+$anchor_color:black; 
 
+// =====================================all mixin functions start from here===========================
+@mixin h3-tags {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092669;
+    text-decoration: none;
+}
+@mixin paraa {
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
 @mixin h1_thing{
     font-size: 40px;
     color:#004987 ;
@@ -47,6 +73,10 @@ $anchor_color:black;
     border:1px solid $anchor_color;
     font-size: 13px;
 }
+// ===================================== all mixin functions end here =======================================
+
+
+// ==================================== animation ===========================================================
 @keyframes rotate{
     0%{
         transform: rotate(0deg);
@@ -56,78 +86,112 @@ $anchor_color:black;
     }
 }
 
-body{
-    background-color: rgb(255, 253, 253);
-    font-family: 'Nunito', sans-serif;
 
-    .bt-nav{
-        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
-        .nav-img{
-            width:32%;
-            img{
-                width:28%;
-                margin:1em 0 1em 3em;
+body{
+    .z-index{
+        .bt-nav{
+            background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
+            .nav-img{
+                width:25%;
+                img{
+                    width:28%;
+                    margin:1em 0 1em 3em;
+                }
             }
-        }
-        .nav-t{
-            background-color:black
-        }
-        .nav-c{
-            justify-content: space-around;
-            .nav-it{
-                .nav-b{
+            .nav-t{
+                background-color:black
+            }
+            .nav-c{
+                justify-content: space-around;
+                .nav-it{
+                    .nav-b{
+                        a{
+                            color:black;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .apply{
+                    background-color: blue;
+                    padding:.7em 1.5em ;
+                    border-radius: 1.5em;
                     a{
-                        color:black;
-                        font-weight: bold;
+                        color: $white_color;
                     }
                 }
             }
-            .apply{
-                background-color: blue;
-                padding:.7em 1.5em ;
-                border-radius: 1.5em;
-                white-space: nowrap;
-                a{
-                    color: $white_color;
+        }
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        .text-box{
+            max-width: 670px;
+            padding: 10px;
+            .title{
+                position: relative;
+                margin-bottom: 45px;
+                h2{
+                    font-size: 36px;
+                    line-height: 40px;
+                    color: #0a369d;
+                    font-weight: 700;
+                    letter-spacing: 0.8px;
+                }
+                ::after{
+                    content: "";
+                    width: 46px;
+                    background: #fbb545;
+                    position: absolute;
+                    height: 3px;
+                    bottom: -23px;
+                    left: 0;
+                }
+            }
+            .textbox-content{
+                p{
+                   @include paraa; 
+                }
+                .btn-apply{
+                    margin-top: 50px;
+                    .btn-bt{
+                        border-radius: 4px;
+                        color: #000000;
+                        font-size: 16px;
+                        line-height: 36px;
+                        font-weight: 600;
+                        text-decoration: none;
+                        display: inline-block;
+                        letter-spacing: 0.3px;
+                        color: #fff;
+                        padding: 4px 23px 1px 24px;
+                        text-transform: capitalize;
+                        background-image: linear-gradient(to right, #0a369d , #082465);
+                    }
                 }
             }
         }
-    }
-    .first-page{
-        margin: 5%;
-        display: grid;
-        grid-template-columns: 45% 45%;
-        .gd{
-            h1{
-                font-size: 2em;
+        .about-img{
+            img{
+                max-width: 100%;
+                height: auto;
             }
         }
     }
-
-    .page-two{
-       display: flex;
-       background-color: rgba($color: #8b8787, $alpha: 0.1);
-       flex-direction: column;
-       margin:20% 0;
-       .top , .bottom{
-           display: flex;
-           flex-direction: row;
-           img{
-               width: 50%;
-           }
-           .data{
-               p{
-                   margin:2em;
-               }
-               h1{
-                   margin:1em ;
-                   color:blue;
-                   font-weight: bold;
-               }
-           }
-       }
+    .second-page{
+        width:80vw;
+        margin: 0 5em;
+        .about-benefit{
+            display: grid;
+            grid-template-columns: 45% 45%;
+            grid-gap:2em;
+            .icon-box{
+                padding: 2em;
+                border: 1px solid black;
+            }
+        }
     }
-
     .images{
         height:250px;
         width:100%;
@@ -148,9 +212,8 @@ body{
             }
         }
     }
-
     .foot{
-        background-image: url("images/33.png");
+        background-image: url("../images/33.png");
         background-size: cover;
         background-position: center;
     
@@ -234,7 +297,6 @@ body{
             }
         }
     }
-
     .base{
         height:50px;
         padding: 20px 0px;
@@ -263,5 +325,6 @@ body{
         }
     }
 }
+
 
 @import "media"

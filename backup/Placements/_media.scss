@@ -1,0 +1,340 @@
+@media(min-width:1800px) and (max-width:2600px){
+    body{
+        .z-index{
+            margin:0 25em;
+        }
+        .page-main{
+            margin:0 25em;
+            .content{
+                .about-img{
+                    img{
+                        width:30vw
+                    }
+                }
+            }
+        }
+        .second-page{
+            margin: 0 30em;
+            width: 70vw;
+        }
+        .images{
+            margin: 5em 25em;
+            width: 70vw;
+        }
+    }
+}
+@media (min-width:1300px) and (max-width:1700px){
+    body{
+        .foot{
+            .main_content{
+                .blue_back{
+                    width:90vw;
+                    .common{
+                        .start{
+                            margin:0 0 0 -3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:770px) and (max-width:1025px) {
+    body{
+        .second-page{
+            .about-benefit{
+                width:80vw;
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    width:90vw;
+                    .common{
+                        .start{
+                            margin:0 0 0 -3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:430px) and (max-width:769px) {
+    body{
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:15vw;
+                    }
+                }
+            }
+        }
+        .second-page{
+            margin: 0 1em;
+            width:99vw;
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    display: flex;
+                    flex-direction: column;
+                    width:90vw;
+                    h1{
+                        position: relative;
+                        right: -3em;
+                    }
+                    .common{
+                        width:90vw;
+                        margin:.5em -4.5em;
+                        .start{
+                            position: relative;
+                            left:7em;
+                            width:30%;
+                            height: 3em;
+                        }
+                        .tutor{
+                            position: relative;
+                            right:-7em;
+                        }
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                position: relative;
+                right:-16em;
+                width: 50%;
+            }
+            .left{
+                ul{
+                    margin:0 9em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:375px) and (max-width:425px){
+    body{
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:21vw;
+                    }
+                }
+            }
+        }
+        .content{
+            .about-img{
+                img{
+                    display: none;
+                }
+            }
+        }
+        .second-page{
+            .about-benefit{
+                margin:0 -1em;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .images{
+            height:21em;
+            .image{
+               display: grid;
+               grid-template-columns: 45% 45%;
+               .six_image{
+                   width: 22vw;;
+                   margin:0 ;
+                   height: 8vw;
+               }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    border-radius: 10em;
+                    width:100vw;
+                    padding:-.5em 0 0 0;
+                     h1{
+                         margin:0 0 0 .5em;
+                         white-space: nowrap;
+                     }
+                     .common{
+                         display: flex;
+                         flex-direction: column;
+                         .start{
+                             position: relative;
+                             top:3em;
+                             left:-8em;
+                             width:50vw;
+                         }
+                         .tutor{
+                             position: relative;
+                             top:2.3em;
+                             left:-2em;
+                             width:14em;
+                             margin: .5em 0 0 -6em;
+                         }
+                     }
+                 }
+                 .help{
+                     margin:0 0 15em 0;
+                     .all_links{
+                         img{
+                             margin:0 0 0 13em;
+                         }
+                         .join{
+                             white-space: nowrap;
+                             position: relative;
+                             right:-7em;
+                         }
+                         .help_link{
+                             h2{
+                                 white-space: nowrap;
+                             }
+                             position: relative;
+                             right:14em;
+                             top:13em;
+                             ul{
+                                 a{
+                                     white-space: nowrap;
+                                 }
+                             }
+                         }
+                         .social{
+                             h2{
+                                 white-space: nowrap;
+                             }
+                             width:80%;
+                             position: relative;
+                             right:12em;
+                             top:13em;
+                         }
+                     }
+                 }
+             }
+         }
+         .base{
+             display: flex;
+             flex-direction: column;
+             .right{
+                 // margin:0 0 0 -9em;
+                 width:53%;
+             }
+             .left{
+                 white-space: nowrap;
+                 ul{
+                     li{
+                         padding:0 -2em;
+                     }
+                 }
+             }
+         }
+    }
+}
+
+@media (min-width:0) and (max-width:374px){
+    body{
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:21vw;
+                    }
+                }
+            }
+        }
+        .content{
+            .about-img{
+                img{
+                    display: none;
+                }
+            }
+        }
+        .second-page{
+            width: 84vw;
+            margin:0 0 0 2em;
+            padding:0 .5em;
+            .about-benefit{
+                margin:0 -1em;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .images{
+            height:21em;
+            .image{
+               display: grid;
+               grid-template-columns: 45% 45%;
+               .six_image{
+                   width: 22vw;;
+                   margin:0 ;
+                   height: 8vw;
+               }
+            }
+        }
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                    }
+                    .common{
+                        left:5em;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        .start{
+                            position: relative;
+                            top:2em;
+                            left:-7em;
+                            width:103%;
+                            margin:1em 0;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:1em;
+                            left:-1em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}

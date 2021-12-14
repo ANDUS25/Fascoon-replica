@@ -2,9 +2,9 @@
     body{
         header{
             .imgclass{
-            .main_para{
-                margin:0 0 0 51em;
-            }
+                .main_para{
+                    margin:0 0 0 51em;
+                }
             }
         }
         .page-2{
@@ -84,7 +84,7 @@
         }
         .page-8{
             .faq{
-                height: 35em;
+                height: 45em;
                 .after{
                     margin:0 7em;
                 }
@@ -104,6 +104,10 @@
                     justify-content: space-around;
                 }
             }
+            .images{
+                width:70vw;
+                margin:0 25em;
+            }
         }
         .foot{
             .main_content{
@@ -119,7 +123,7 @@
             }
         }
         .base{
-            margin:0 41em   ;
+            margin:0 41em;
         }
     }
 }
@@ -166,7 +170,7 @@
                     }
                     .div-right{
                         position: relative;
-                        left:67em;
+                        left:64em;
                     }
                 }
             }
@@ -929,18 +933,17 @@
                         }
                     }
                 }
-
             }
             .images{
+                height:76vw;
                 .image{
-                    width:90%;
-                    .four{
-                        animation: none;
-                    }
+                    display: grid;
+                    grid-template-columns: 45% 45%;
                     .six_image{
-                        margin: 0;
+                        width:27vw;
+                        margin:0 0 0 1em;
+                        height:9vh;
                     }
-                    margin: 0 0 0 -.5em;
                 }
             }
         }
@@ -1156,7 +1159,7 @@
         }
         .page-8{
             .faq{
-                height:60em;
+                height:75em;
                 .main_block{
                     margin:0 1em;
                     width:90vw;
@@ -1226,7 +1229,7 @@
                         white-space: nowrap;
                     }
                     .common{
-                        position: relative;
+                        // position: relative;
                         left:5em;
                         display: flex;
                         flex-direction: column;
@@ -1234,14 +1237,14 @@
                         .start{
                             position: relative;
                             top:3em;
-                            left:-12em;
+                            left:-8em;
                             width:103%;
                             margin:1em 0;
                         }
                         .tutor{
                             position: relative;
                             top:2em;
-                            left:-6em;
+                            left:-2em;
                             width:14em;
                             margin: .5em 0 0 -6em;
                         }
@@ -1475,20 +1478,20 @@
                     .common{
                         display: flex;
                         flex-direction: column;
-                        position: relative;
+                        // position: relative;
                         top:-.5em;
                         right:-6em;
                             .start{
                             position: relative;
-                            top:3em;
-                            left:-12em;
+                            top:2em;
+                            left:-7em;
                             margin:1em 0;
                             width:103%;
                         }
                         .tutor{
                             position: relative;
-                            top:2em;
-                            left:-6em;
+                            top:1em;
+                            left:-1em;
                             width:14em;
                             margin: .5em 0 0 -6em;
                         }

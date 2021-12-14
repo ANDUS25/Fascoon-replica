@@ -61,7 +61,7 @@
 
 .div {
   font-family: 'Nunito', sans-serif;
-  margin: 2em 4em;
+  margin: 2em 1em;
 }
 
 .div .number span {
@@ -104,7 +104,7 @@
 }
 
 .foot {
-  background-image: url("images/33.png");
+  background-image: url("../images/33.png");
   background-size: cover;
   background-position: center;
 }
@@ -270,9 +270,67 @@
   padding: 0px 10px;
 }
 
-@media (min-width: 1800px) and (max-width: 2560px) {
+@media (min-width: 1800px) and (max-width: 2562px) {
   div {
     margin: 2em 15em;
+  }
+  .images {
+    width: 70vw;
+    margin: 0 25em;
+  }
+  .foot .main_content {
+    margin: 0 40em;
+  }
+  .foot .main_content .blue_back {
+    position: relative;
+    top: -6em;
+    width: 94em;
+  }
+  .foot .main_content .blue_back .common {
+    width: 58%;
+  }
+  .base {
+    margin: 0 41em;
+  }
+}
+
+@media (min-width: 1030px) and (max-width: 1500px) {
+  .foot .main_content .blue_back {
+    position: relative;
+    top: -2em;
+    left: -2em;
+  }
+  .foot .main_content .blue_back .common .start, .foot .main_content .blue_back .common .tutor {
+    width: 15em;
+  }
+  .foot .main_content .help {
+    margin: 5em 6em;
+  }
+  .foot .main_content .help .all_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .foot .main_content hr {
+    width: 90vw;
+    margin: 0 0 0 -32em;
+  }
+  .base {
+    margin: 0 1.5em;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .foot .main_content .blue_back {
+    width: 90vw;
+  }
+  .foot .main_content .blue_back .common .start {
+    margin: 0 0 0 -3em;
+  }
+  .base .right {
+    margin: 0 0 0 -2em;
   }
 }
 
@@ -283,25 +341,76 @@
   div .number h1 {
     font-size: 1.2em;
   }
+  .foot .main_content .blue_back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90vw;
+  }
+  .foot .main_content .blue_back h1 {
+    position: relative;
+    right: -3em;
+  }
+  .foot .main_content .blue_back .common {
+    width: 90vw;
+    margin: .5em -4.5em;
+  }
+  .foot .main_content .blue_back .common .start {
+    position: relative;
+    left: 7em;
+    width: 30%;
+    height: 3em;
+  }
+  .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    right: -7em;
+  }
+  .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .base .right {
+    position: relative;
+    right: -16em;
+    width: 50%;
+  }
+  .base .left ul {
+    margin: 0 9em;
+  }
 }
 
-@media (min-width: 0) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
+  .z-index .bt-nav .nav-img img {
+    width: 25vw;
+  }
   div {
     margin: 1em;
   }
   div .number h1 {
     font-size: 1.2em;
   }
-  .images .image {
-    width: 90%;
-    margin: 0 0 0 -.5em;
+  .images {
+    height: 76vw;
   }
-  .images .image .four {
-    -webkit-animation: none;
-            animation: none;
+  .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 45%;
+        grid-template-columns: 45% 45%;
   }
   .images .image .six_image {
-    margin: 0;
+    width: 27vw;
+    margin: 0 0 0 1em;
+    height: 9vh;
   }
   .foot .main_content .blue_back {
     border-radius: 10em;
@@ -384,7 +493,10 @@
   }
 }
 
-@media (min-width: 0) and (max-width: 375px) {
+@media (min-width: 326px) and (max-width: 375px) {
+  .z-index .bt-nav .nav-img img {
+    width: 25vw;
+  }
   .images .image {
     display: -ms-grid;
     display: grid;
@@ -407,7 +519,6 @@
     white-space: nowrap;
   }
   .foot .main_content .blue_back .common {
-    position: relative;
     left: 5em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -421,14 +532,14 @@
   .foot .main_content .blue_back .common .start {
     position: relative;
     top: 3em;
-    left: -12em;
+    left: -8em;
     width: 103%;
     margin: 1em 0;
   }
   .foot .main_content .blue_back .common .tutor {
     position: relative;
     top: 2em;
-    left: -6em;
+    left: -2em;
     width: 14em;
     margin: .5em 0 0 -6em;
   }
@@ -440,8 +551,88 @@
     -ms-grid-rows: 33% 33%;
         grid-template-rows: 33% 33%;
   }
-  .foot .main_content .help .social ol li a {
-    color: black;
+  .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .base .right {
+    white-space: nowrap;
+    width: 53%;
+  }
+  .base .left {
+    white-space: nowrap;
+  }
+  .base .left ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 0) and (max-width: 325px) {
+  .z-index .bt-nav .nav-img img {
+    width: 25vw;
+  }
+  .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% 42%;
+        grid-template-columns: 42% 42%;
+    margin: 1em 0 0 2.5em;
+  }
+  .images .image .six_image {
+    width: 70%;
+    height: 50%;
+  }
+  .foot {
+    margin: 12em 0 -2em 0;
+  }
+  .foot .main_content .blue_back {
+    border-radius: 6em;
+    width: 100vw;
+  }
+  .foot .main_content .blue_back h1 {
+    white-space: nowrap;
+    margin: 0 0 0 -.5em;
+  }
+  .foot .main_content .blue_back .common {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: -.5em;
+    right: -6em;
+  }
+  .foot .main_content .blue_back .common .start {
+    position: relative;
+    top: 2em;
+    left: -7em;
+    margin: 1em 0;
+    width: 103%;
+  }
+  .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    top: 1em;
+    left: -1em;
+    width: 14em;
+    margin: .5em 0 0 -6em;
+  }
+  .foot .main_content .help .all_links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+    -ms-grid-rows: 33% 33%;
+        grid-template-rows: 33% 33%;
   }
   .base {
     display: -webkit-box;

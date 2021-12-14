@@ -20,67 +20,118 @@
   }
 }
 
-.z-index .bt-nav {
+body .bt-nav {
   background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right, white, rgba(255, 255, 255, 0.3));
 }
 
-.z-index .bt-nav .nav-img {
-  width: 25%;
+body .bt-nav .nav-img {
+  width: 32%;
 }
 
-.z-index .bt-nav .nav-img img {
+body .bt-nav .nav-img img {
   width: 28%;
   margin: 1em 0 1em 3em;
 }
 
-.z-index .bt-nav .nav-t {
+body .bt-nav .nav-t {
   background-color: black;
 }
 
-.z-index .bt-nav .nav-c {
+body .bt-nav .nav-c {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.z-index .bt-nav .nav-c .nav-it .nav-b a {
+body .bt-nav .nav-c .nav-it .nav-b a {
   color: black;
   font-weight: bold;
 }
 
-.z-index .bt-nav .nav-c .apply {
+body .bt-nav .nav-c .apply {
   background-color: blue;
   padding: .7em 1.5em;
   border-radius: 1.5em;
   white-space: nowrap;
 }
 
-.z-index .bt-nav .nav-c .apply a {
+body .bt-nav .nav-c .apply a {
   color: white;
 }
 
-.main {
-  font-family: 'Nunito', sans-serif;
-  margin: 2em 7em;
+body .page-main .both {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.main .nums .header {
-  color: blue;
+body .page-main .both .info {
+  width: 55vw;
+  margin: 3em;
+  font-size: bold;
 }
 
-.images {
+body .page-main .both .info h1 {
+  color: #0a369d;
+}
+
+body .page-main .both .info .Co {
+  border-bottom: 2px solid #fbb545;
+  display: inline;
+}
+
+body .page-main .both .info span {
+  display: block;
+  margin: 1em 0;
+}
+
+body .page-main .both .images {
+  width: 45vw;
+}
+
+body .page-main .both .images img {
+  width: 100%;
+}
+
+body .page-main a {
+  margin: 3em;
+  color: white;
+  background-color: #0a369d;
+  padding: 1em 1.5em;
+  border-radius: .8em;
+}
+
+body .second-page {
+  width: 80vw;
+  margin: 5em 0 0 3em;
+}
+
+body .second-page .about-benefit {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 1.5em;
+}
+
+body .second-page .about-benefit .icon-box {
+  border: 1px solid #9e9595;
+  padding: 1em;
+}
+
+body .images {
   height: 250px;
   width: 100%;
 }
 
-.images h1 {
+body .images h1 {
   font-size: 40px;
   color: #004987;
   margin: 0rem 5rem;
   padding: 2rem 0px;
 }
 
-.images .image {
+body .images .image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +140,7 @@
   margin: 2rem 4rem;
 }
 
-.images .image .six_image {
+body .images .image .six_image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,18 +149,18 @@
       align-self: center;
 }
 
-.images .image .four {
+body .images .image .four {
   -webkit-animation: rotate 5s linear .2s infinite;
           animation: rotate 5s linear .2s infinite;
 }
 
-.foot {
+body .foot {
   background-image: url("../images/33.png");
   background-size: cover;
   background-position: center;
 }
 
-.foot .main_content .blue_back {
+body .foot .main_content .blue_back {
   background-color: #004987;
   width: 75vw;
   display: -webkit-box;
@@ -120,30 +171,30 @@
   border-radius: 90px 90px;
 }
 
-.foot .main_content .blue_back h1 {
+body .foot .main_content .blue_back h1 {
   color: white;
   width: 38vw;
 }
 
-.foot .main_content .blue_back .common {
+body .foot .main_content .blue_back .common {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.foot .main_content .blue_back .common .start {
+body .foot .main_content .blue_back .common .start {
   background-color: #d6b80c;
   border-radius: 30px;
   padding: 15px;
   font-size: 18px;
 }
 
-.foot .main_content .blue_back .common .start a {
+body .foot .main_content .blue_back .common .start a {
   text-decoration: none;
   color: white;
 }
 
-.foot .main_content .blue_back .common .tutor {
+body .foot .main_content .blue_back .common .tutor {
   background-color: #6243aa;
   margin: 0px 30px;
   border-radius: 30px;
@@ -151,20 +202,20 @@
   font-size: 18px;
 }
 
-.foot .main_content .blue_back .common .tutor a {
+body .foot .main_content .blue_back .common .tutor a {
   text-decoration: none;
   color: white;
 }
 
-.foot .main_content .help {
+body .foot .main_content .help {
   margin: 7rem 0;
 }
 
-.foot .main_content .help a {
+body .foot .main_content .help a {
   color: inherit;
 }
 
-.foot .main_content .help .all_links {
+body .foot .main_content .help .all_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,11 +228,11 @@
           justify-content: space-evenly;
 }
 
-.foot .main_content .help .all_links .join ul {
+body .foot .main_content .help .all_links .join ul {
   padding: 20px 0px;
 }
 
-.foot .main_content .help .all_links .join ul a {
+body .foot .main_content .help .all_links .join ul a {
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,18 +242,18 @@
   transition: all linear .3s;
 }
 
-.foot .main_content .help .all_links .join ul a:hover {
+body .foot .main_content .help .all_links .join ul a:hover {
   color: #0d6edd;
   margin: 0px 20px;
   -webkit-transition: .2s ease-in-out .3s;
   transition: .2s ease-in-out .3s;
 }
 
-.foot .main_content .help .help_link ul {
+body .foot .main_content .help .help_link ul {
   padding: 20px 0px;
 }
 
-.foot .main_content .help .help_link ul a {
+body .foot .main_content .help .help_link ul a {
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,27 +263,27 @@
   transition: all linear .3s;
 }
 
-.foot .main_content .help .help_link ul a:hover {
+body .foot .main_content .help .help_link ul a:hover {
   color: #0d6edd;
   margin: 0px 20px;
   -webkit-transition: .2s ease-in-out .3s;
   transition: .2s ease-in-out .3s;
 }
 
-.foot .main_content .help .social ol {
+body .foot .main_content .help .social ol {
   padding: 20px 0px;
   list-style: none;
 }
 
-.foot .main_content .help .social ol li {
+body .foot .main_content .help .social ol li {
   padding: 10px 0px;
 }
 
-.foot .main_content .help .social ol li:hover {
+body .foot .main_content .help .social ol li:hover {
   color: #004987;
 }
 
-.base {
+body .base {
   height: 50px;
   padding: 20px 0px;
   display: -ms-grid;
@@ -241,15 +292,15 @@
       grid-template-columns: 35% 65%;
 }
 
-.base a {
+body .base a {
   color: inherit;
 }
 
-.base .right {
+body .base .right {
   margin: 0px 2.5rem;
 }
 
-.base .left ul {
+body .base .left ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,71 +312,68 @@
       justify-content: space-around;
 }
 
-.base .left ul li {
+body .base .left ul li {
   list-style: none;
 }
 
-.base .left ul li a {
+body .base .left ul li a {
   text-decoration: none;
   padding: 0px 10px;
 }
 
 @media (min-width: 1800px) and (max-width: 2560px) {
-  .z-index {
+  body .navbar {
+    margin: 0 35em;
+  }
+  body .page-main {
+    margin: 5em 25em;
+  }
+  body .second-page {
+    margin: 5em 25em;
+    width: 65vw;
+  }
+  body .images {
+    margin: 5em 25em;
     width: 70vw;
-    margin: 0 25em;
   }
-  .main {
-    margin: 2em 50em;
-  }
-  .images {
-    width: 70vw;
-    margin: 0 25em;
-  }
-  .foot .main_content {
+  body .foot .main_content {
     margin: 0 40em;
   }
-  .foot .main_content .blue_back {
+  body .foot .main_content .blue_back {
     position: relative;
     top: -6em;
     width: 94em;
   }
-  .foot .main_content .blue_back .common {
+  body .foot .main_content .blue_back .common {
     width: 58%;
   }
-  .base {
+  body .base {
     margin: 0 41em;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1025px) {
-  .foot .main_content .blue_back {
-    width: 90vw;
+@media (min-width: 1026px) and (max-width: 1445px) {
+  body .foot .main_content .blue_back {
+    position: relative;
+    top: -2em;
+    left: -2em;
   }
-  .foot .main_content .blue_back .common .start {
-    margin: 0 0 0 -3em;
-  }
-  .base .right {
-    margin: 0 0 0 -2em;
+  body .foot .main_content .blue_back .common .start, body .foot .main_content .blue_back .common .tutor {
+    width: 15em;
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
-  .z-index .bt-nav .nav-img img {
-    width: 15vw;
+@media (min-width: 770px) and (max-width: 1025px) {
+  body .foot .main_content .blue_back {
+    width: 90vw;
   }
-  .main {
-    margin: 2em 1em 2em 4em;
+  body .foot .main_content .blue_back .common .start {
+    margin: 0 0 0 -3em;
   }
-  .images .image {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .images .image .six_image {
-    margin: 0 .2em;
-  }
-  .foot .main_content .blue_back {
+}
+
+@media (min-width: 435px) and (max-width: 768px) {
+  body .foot .main_content .blue_back {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -335,77 +383,66 @@
             flex-direction: column;
     width: 90vw;
   }
-  .foot .main_content .blue_back h1 {
+  body .foot .main_content .blue_back h1 {
     position: relative;
     right: -3em;
   }
-  .foot .main_content .blue_back .common {
+  body .foot .main_content .blue_back .common {
     width: 90vw;
     margin: .5em -4.5em;
   }
-  .foot .main_content .blue_back .common .start {
+  body .foot .main_content .blue_back .common .start {
     position: relative;
     left: 7em;
     width: 30%;
     height: 3em;
   }
-  .foot .main_content .blue_back .common .tutor {
+  body .foot .main_content .blue_back .common .tutor {
     position: relative;
     right: -7em;
   }
-  .base {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .base .right {
-    position: relative;
-    right: -16em;
-    width: 50%;
-  }
-  .base .left ul {
-    margin: 0 9em;
-  }
 }
 
-@media (min-width: 376px) and (max-width: 425px) {
-  .z-index .bt-nav .nav-img img {
-    width: 20vw;
+@media (min-width: 380px) and (max-width: 430px) {
+  body .bt-nav .nav-img img {
+    width: 25vw;
   }
-  .main {
-    margin: 2em 0 2em 2em;
+  body .page-main .both .info {
+    width: 80vw;
   }
-  .main .nums .head h1 {
-    font-size: 1.2em;
+  body .page-main .both .images {
+    display: none;
   }
-  .images {
-    height: 76vw;
-  }
-  .images .image {
+  body .second-page .about-benefit {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 45% 45%;
-        grid-template-columns: 45% 45%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
-  .images .image .six_image {
-    width: 27vw;
-    margin: 0 0 0 1em;
+  body .images {
+    height: 25em;
+  }
+  body .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+  }
+  body .images .image .six_image {
+    width: 75%;
+    margin: 0 1em;
     height: 9vh;
   }
-  .foot .main_content .blue_back {
+  body .foot .main_content .blue_back {
     border-radius: 10em;
     width: 100vw;
     padding: -.5em 0 0 0;
   }
-  .foot .main_content .blue_back h1 {
+  body .foot .main_content .blue_back h1 {
     margin: 0 0 0 .5em;
     white-space: nowrap;
   }
-  .foot .main_content .blue_back .common {
+  body .foot .main_content .blue_back .common {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -414,50 +451,50 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .foot .main_content .blue_back .common .start {
+  body .foot .main_content .blue_back .common .start {
     position: relative;
     top: 4em;
     left: -12em;
     width: 100%;
   }
-  .foot .main_content .blue_back .common .tutor {
+  body .foot .main_content .blue_back .common .tutor {
     position: relative;
     left: 3em;
     width: 14em;
     margin: .5em 0 0 -6em;
   }
-  .foot .main_content .help {
+  body .foot .main_content .help {
     margin: 0 0 15em 0;
   }
-  .foot .main_content .help .all_links img {
+  body .foot .main_content .help .all_links img {
     margin: 0 0 0 13em;
   }
-  .foot .main_content .help .all_links .join {
+  body .foot .main_content .help .all_links .join {
     white-space: nowrap;
     position: relative;
     right: -7em;
   }
-  .foot .main_content .help .all_links .help_link {
+  body .foot .main_content .help .all_links .help_link {
     position: relative;
     right: 14em;
     top: 13em;
   }
-  .foot .main_content .help .all_links .help_link h2 {
+  body .foot .main_content .help .all_links .help_link h2 {
     white-space: nowrap;
   }
-  .foot .main_content .help .all_links .help_link ul a {
+  body .foot .main_content .help .all_links .help_link ul a {
     white-space: nowrap;
   }
-  .foot .main_content .help .all_links .social {
+  body .foot .main_content .help .all_links .social {
     width: 80%;
     position: relative;
     right: 12em;
     top: 13em;
   }
-  .foot .main_content .help .all_links .social h2 {
+  body .foot .main_content .help .all_links .social h2 {
     white-space: nowrap;
   }
-  .base {
+  body .base {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -466,50 +503,56 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .base .right {
+  body .base .right {
     width: 53%;
   }
-  .base .left {
+  body .base .left {
     white-space: nowrap;
   }
-  .base .left ul li {
+  body .base .left ul li {
     padding: 0 -2em;
   }
 }
 
-@media (min-width: 326px) and (max-width: 375px) {
-  .z-index .bt-nav .nav-img img {
+@media (min-width: 0) and (max-width: 375px) {
+  body .bt-nav .nav-img img {
     width: 25vw;
   }
-  .main {
-    font-family: 'Nunito', sans-serif;
-    margin: 2em 1em;
+  body .page-main .both .info {
+    width: 80vw;
   }
-  .main .nums .header {
-    color: blue;
+  body .page-main .both .images {
+    display: none;
   }
-  .images .image {
+  body .second-page .about-benefit {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  body .images .image {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 42% 42%;
         grid-template-columns: 42% 42%;
     margin: 1em 0 0 2.5em;
   }
-  .images .image .six_image {
+  body .images .image .six_image {
     width: 70%;
-    height: 50%;
+    height: 9vh;
+    margin: 0 1em;
   }
-  .foot {
+  body .foot {
     margin: 12em 0 -2em 0;
   }
-  .foot .main_content .blue_back {
+  body .foot .main_content .blue_back {
     border-radius: 6em;
     width: 100vw;
   }
-  .foot .main_content .blue_back h1 {
+  body .foot .main_content .blue_back h1 {
     white-space: nowrap;
   }
-  .foot .main_content .blue_back .common {
+  body .foot .main_content .blue_back .common {
     left: 5em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -520,21 +563,21 @@
             flex-direction: column;
     width: 100%;
   }
-  .foot .main_content .blue_back .common .start {
+  body .foot .main_content .blue_back .common .start {
     position: relative;
     top: 3em;
     left: -8em;
     width: 103%;
     margin: 1em 0;
   }
-  .foot .main_content .blue_back .common .tutor {
+  body .foot .main_content .blue_back .common .tutor {
     position: relative;
     top: 2em;
     left: -2em;
     width: 14em;
     margin: .5em 0 0 -6em;
   }
-  .foot .main_content .help .all_links {
+  body .foot .main_content .help .all_links {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% 40%;
@@ -542,7 +585,7 @@
     -ms-grid-rows: 33% 33%;
         grid-template-rows: 33% 33%;
   }
-  .base {
+  body .base {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -551,103 +594,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .base .right {
+  body .base .right {
     white-space: nowrap;
     width: 53%;
   }
-  .base .left {
+  body .base .left {
     white-space: nowrap;
   }
-  .base .left ul {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-  }
-}
-
-@media (min-width: 0) and (max-width: 325px) {
-  .z-index .bt-nav .nav-img img {
-    width: 25vw;
-  }
-  .main {
-    margin: 0 1em;
-  }
-  .main .nums div h1 {
-    font-size: 2em;
-  }
-  .images .image {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 42% 42%;
-        grid-template-columns: 42% 42%;
-    margin: 1em 0 0 2.5em;
-  }
-  .images .image .six_image {
-    width: 70%;
-    height: 50%;
-  }
-  .foot {
-    margin: 12em 0 -2em 0;
-  }
-  .foot .main_content .blue_back {
-    border-radius: 6em;
-    width: 100vw;
-  }
-  .foot .main_content .blue_back h1 {
-    white-space: nowrap;
-    margin: 0 0 0 -.5em;
-  }
-  .foot .main_content .blue_back .common {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    top: -.5em;
-    right: -6em;
-  }
-  .foot .main_content .blue_back .common .start {
-    position: relative;
-    top: 2em;
-    left: -7em;
-    margin: 1em 0;
-    width: 103%;
-  }
-  .foot .main_content .blue_back .common .tutor {
-    position: relative;
-    top: 1em;
-    left: -1em;
-    width: 14em;
-    margin: .5em 0 0 -6em;
-  }
-  .foot .main_content .help .all_links {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 40% 40%;
-        grid-template-columns: 40% 40%;
-    -ms-grid-rows: 33% 33%;
-        grid-template-rows: 33% 33%;
-  }
-  .base {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .base .right {
-    white-space: nowrap;
-    width: 53%;
-  }
-  .base .left {
-    white-space: nowrap;
-  }
-  .base .left ul {
+  body .base .left ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;

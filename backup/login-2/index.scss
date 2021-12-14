@@ -31,256 +31,287 @@ $for_ul:20px 0px;
 }
 html{
     font-family: 'Nunito', sans-serif;
-}
 
-.z-index{
-    .bt-nav{
-        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
-        .nav-img{
-            width:25%;
-            img{
-                width:28%;
-                margin:1em 0 1em 3em;
-            }
-        }
-        .nav-t{
-            background-color:black
-        }
-        .nav-c{
-            justify-content: space-around;
-            .nav-it{
-                .nav-b{
-                    a{
-                        color:black;
-                        font-weight: bold;
+    body{
+        
+        .z-index{
+            .bt-nav{
+                background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
+                .nav-img{
+                    width:25%;
+                    img{
+                        width:28%;
+                        margin:1em 0 1em 3em;
+                    }
+                }
+                .nav-t{
+                    background-color:black
+                }
+                .nav-c{
+                    justify-content: space-around;
+                    .nav-it{
+                        .nav-b{
+                            a{
+                                color:black;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .apply{
+                        background-color: blue;
+                        padding:.7em 1.5em ;
+                        border-radius: 1.5em;
+                        white-space: nowrap;
+                        a{
+                            color: $white_color;
+                        }
                     }
                 }
             }
-            .apply{
-                background-color: blue;
-                padding:.7em 1.5em ;
-                border-radius: 1.5em;
-                white-space: nowrap;
-                a{
-                    color: $white_color;
+        }
+        
+        div{
+            .own-nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .own-img{
+                    width:70%;
+                    img{
+                        width:11%;
+                    }
                 }
             }
         }
-    }
-}
-div{
-    .own-nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        .own-img{
-            width:70%;
-            img{
-                width:11%;
-            }
-        }
-    }
-}
-
-.login{
-    width:80vw;
-    margin:5em 0 0 10em;
-    display: flex;
-    .left , .right{
-        padding:1em;
-        width:36vw;
-        border-right: 1px solid gray;
-        .logo{
-            font-size: 3em;
-        }
-        label{
-            display: block;
-            &::after{
-                content: "*";
-                color: red;
-            }
-        }
-        input[type=email] , input[type=password]{
-            width:100%;
-            margin:1em -0.4em;
-            padding: 1em 0;
-            border:1px solid gray;
-            border-radius: 2em;
-        }
-        .regi{
-            display: block;
-            button{
-                transition: all .5s linear .2s;
-                width:100%;
-                padding: 1em 2em;
-                margin:1em 0 ;
-            }
-            button:hover{
-                background-color: black;
-                color: white;
-            }
-        }
-        .regii{
-            display: block;
-            transition: all .5s linear .2s;
-            width:90%;
-            padding: 1em 2em;
-            margin:1em 0 ;
-            background-color: blue;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            &:hover{
-                background-color: black;
-            }
-        }
-        .password{
+        
+        .login{
+            width:80vw;
+            margin:5em 0 0 10em;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .be{
-            text-align: center;
-            position: relative;
-           
-            &:before {
-                content: "";
-                display: block;
-                width: 10em;
-                height: 3px;
-                background: #191970;
-                left: 2em;
-                top: 38%;
-                position: absolute;
-            }
-            &:after {
-              content: "";
-              display: block;
-              width: 10em;
-              height: 3px;
-              background: #191970;
-              right: 2em;
-              top: 51%;
-              position: absolute;
-            }
-        }
-        .buttons{
-            button{
-                border-radius: 2em;
-                margin:2em 0;
-                width:49%;
-                padding: 1em 2em;
-                a{
-                    flex-direction: row;
-                    width:15vw;
-                    padding:1em;
-                    margin:2em auto;
+            .left , .right{
+                padding:1em;
+                width:36vw;
+                border-right: 1px solid gray;
+                .logo{
+                    font-size: 3em;
+                }
+                label{
+                    display: block;
+                    &::after{
+                        content: "*";
+                        color: red;
+                    }
+                }
+                input[type=email] , input[type=password]{
+                    width:100%;
+                    margin:1em -0.4em;
+                    padding: 1em 0;
+                    border:1px solid gray;
+                    border-radius: 2em;
+                }
+                .regi{
+                    display: block;
+                    button{
+                        transition: all .5s linear .2s;
+                        width:100%;
+                        padding: 1em 2em;
+                        margin:1em 0 ;
+                    }
+                    button:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+                .regii{
+                    display: block;
+                    transition: all .5s linear .2s;
+                    width:90%;
+                    padding: 1em 2em;
+                    margin:1em 0 ;
+                    background-color: blue;
+                    color: white;
+                    text-align: center;
                     text-decoration: none;
-                    color:white;
-                    padding:4em 2em;
+                    &:hover{
+                        background-color: black;
+                    }
+                }
+                .password{
+                    display: flex;
                     justify-content: space-between;
-                    i , span{
-                        font-size: 1.5em;
-                        color:white;
+                    align-items: center;
+                }
+                .be{
+                    text-align: center;
+                    position: relative;
+                }
+                .buttons{
+                    button{
+                        border-radius: 2em;
+                        margin:2em 0;
+                        padding: 1em 2em;
+                        a{
+                            flex-direction: row;
+                            width:15vw;
+                            padding:1em;
+                            margin:2em auto;
+                            text-decoration: none;
+                            color:white;
+                            padding:4em 2em;
+                            justify-content: space-between;
+                            i , span{
+                                font-size: 1.5em;
+                                color:white;
+                            }
+                        }
+                    }
+                    .face{
+                        background-color: rgb(17, 17, 116);
+                    }
+                    .goo{
+                        background-color: rgb(64, 88, 197);
+                        }
+                }
+            }
+            .left{
+                padding:1em 3em 0 0;
+            }
+            .right{
+                border-right: none;
+                margin:0 0 0 2em;
+            }
+        }
+        
+        .images{
+            height:250px;
+            width:100%;
+            h1{
+                @include h1_thing
+            }
+            .image{
+                display: flex;
+                justify-content: space-around;
+                margin: 2rem 4rem;
+                .six_image{
+                    display: flex;
+                    margin:0 -3em;
+                    align-self: center;
+                }
+                .four{
+                    animation: rotate 5s linear .2s infinite ;
+                }
+            }
+        }
+        
+        .foot{
+            background-image: url("../images/33.png");
+            background-size: cover;
+            background-position: center;
+        
+            .main_content{
+                .blue_back{
+                    background-color: $color;
+                    width:75vw;
+                    display: flex;
+                    padding:3rem;
+                    margin: 100px auto;
+                    border-radius: 90px 90px ;
+                    h1{
+                        color: white;
+                        width:38vw;
+                    }
+                    .common{
+                        display: flex;
+                        .start{
+                            background-color: rgb(214, 184, 12);
+                            @include start_tutor;
+                            a{
+                                @include start_a;
+                            }
+                        }
+                        .tutor{
+                            background-color: rgb(98, 67, 170);
+                            margin: 0px 30px;
+                            @include start_tutor;
+                            a{
+                                @include start_a;
+                            }
+                        }
+                    }
+                }
+                .help{
+                    margin:7rem 0;
+                    a{
+                        color: inherit;
+                    }
+                    .all_links{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        .join{
+                            ul{
+                                padding:$for_ul;
+                                a{
+                                    @include for_a();
+                                    transition: all linear .3s;
+                                }   
+                                a:hover{
+                                    @include hover_effect()
+                                }
+                            }
+                        }
+                    }
+                    .help_link{
+                        ul{
+                            padding:$for_ul;
+                            a{
+                             @include for_a;
+                             transition: all linear .3s;
+                            }
+                            a:hover{
+                                @include hover_effect()
+                            }
+                        }
+                    }
+                    .social{
+                        ol{
+                            padding:$for_ul;
+                            list-style: none;
+                            li{
+                                padding: 10px 0px;
+                                &:hover{
+                                    color:#004987;
+                                }
+                            }
+                        }
                     }
                 }
             }
-            .face{
-                background-color: rgb(17, 17, 116);
-            }
-            .goo{
-                background-color: rgb(64, 88, 197);
-                }
         }
-    }
-    .left{
-        padding:1em 3em 0 0;
-    }
-    .right{
-        border-right: none;
-        margin:0 0 0 2em;
-    }
-}
-
-
-.foot{
-    background-image: url("../../images/33.png");
-    background-size: cover;
-    background-position: center;
-    .main_content{
-        .help{
-            margin:7rem 0;
+        .base{
+            height:50px;
+            padding: 20px 0px;
+            display: grid;
+            grid-template-columns: 35% 65%;
             a{
                 color: inherit;
             }
-            .all_links{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                padding:8em 0;
-                .join{
-                    ul{
-                        padding:$for_ul;
-                        a{
-                            @include for_a();
-                            transition: all linear .3s;
-                        }   
-                        a:hover{
-                            @include hover_effect()
-                        }
-                    }
-                }
+        
+            .right{
+                margin: 0px 2.5rem;
             }
-            .help_link{
+            .left{
                 ul{
-                    padding:$for_ul;
-                    a{
-                     @include for_a;
-                     transition: all linear .3s;
-                    }
-                    a:hover{
-                        @include hover_effect()
-                    }
-                }
-            }
-            .social{
-                ol{
-                    padding:$for_ul;
-                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
                     li{
-                        padding: 10px 0px;
-                        &:hover{
-                            color:#004987;
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            padding: 0px 10px;
                         }
                     }
-                }
-            }
-        }
-    }
-}
-
-.base{
-    height:50px;
-    padding: 20px 0px;
-    display: grid;
-    grid-template-columns: 35% 65%;
-    a{
-        color: inherit;
-    }
-
-    .right{
-        margin: 0px 2.5rem;
-    }
-    .left{
-        ul{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            li{
-                list-style: none;
-                a{
-                    text-decoration: none;
-                    padding: 0px 10px;
                 }
             }
         }

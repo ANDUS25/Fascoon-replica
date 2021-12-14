@@ -1,0 +1,564 @@
+@media(min-width:1800px) and (max-width:2560px) {
+    body{
+        .z-index{
+            .bt-nav{
+                width:70vw;
+                margin:0 25em;
+            }
+        }
+        .faq-sec{
+            .container{
+                .faqs{
+                    margin:0 -15em;
+                }
+            }
+        }
+        .images{
+            margin:0 25em;
+            width:70vw;
+
+        }
+        .foot{
+            .main_content{
+                margin:0 40em;
+                .blue_back{
+                    position: relative;
+                    top:-6em;
+                    width:94em;
+                    .common{
+                        width:58%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1025px) and (max-width:1445px) {
+    body{
+        .foot{
+            .main_content{
+                .blue_back{
+                    position: relative;
+                    top:-2em;
+                    left:-2em;
+                    .common{
+                        .start, .tutor{
+                            width:15em;
+                        }
+                    }
+                }
+                .help{
+                    margin:5em 6em;
+                    .all_links{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+                hr{
+                    width:90vw;
+                    margin:0 0 0 -32em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    body{
+        .hiring-sec{
+            margin: 0;
+            padding: 0;
+        }
+    
+        .steps.hire{
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+            .steps{
+                padding: 10px;
+                max-width: 300px;
+            }
+        }
+    
+        .faq-sec{
+            .faqs{
+                margin: 40px 0;
+                .que-ans{
+                    margin: 0 8rem;
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    width:90vw;
+                    .common{
+                        .start{
+                            margin:0 0 0 -3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:430px) and (max-width:768px){
+    body{
+        .content{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .hiring-sec{
+            margin: 0;
+            padding: 0;
+            .head-process{
+                margin-bottom: 20px;
+            }
+        }
+        .steps-hire{
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+            .steps{
+                padding: 10px;
+                max-width: 300px;
+            }
+        }
+        .faq-sec{
+            .faqs{
+                margin: 40px 0;
+                .que-ans{
+                    margin: 0 1rem;
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    display: flex;
+                    flex-direction: column;
+                    width:90vw;
+                    h1{
+                        position: relative;
+                        right: -3em;
+                    }
+                    .common{
+                        width:90vw;
+                        margin:.5em -4.5em;
+                        .start{
+                            position: relative;
+                            left:7em;
+                            width:30%;
+                            height: 3em;
+                        }
+                        .tutor{
+                            position: relative;
+                            right:-7em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:376px) and (max-width:427px){
+    body{
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:25vw;
+                    }
+                }
+            }
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .hiring-sec{
+            margin: 10px;
+            padding: 0;
+            .steps-hire{
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                .steps{
+                    padding: 10px;
+                    max-width: 300px;
+                }
+            }
+        }
+        .faq-sec{
+            width: 99vw;
+            .container{
+                display: flex;
+                flex-direction: column;
+                .faqs{
+                    margin: 20px 0;
+                    .que-ans{
+                        margin: 0 0;
+                        .que-faq{
+                            #btn-1{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            display: grid;
+                            gap: 10px;
+                            ion-icon{
+                                font-size: 14px;
+                                font-weight: 200;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .images{
+            margin:0 0 12em 0;
+            .image{
+                display: grid;
+                grid-template-columns: 42% 42%;
+                margin:1em 0 0 2.5em;
+                .six_image{
+                    width:70%;
+                    height:50%;
+                }
+            }
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    border-radius: 10em;
+                    width:100vw;
+                    padding:-.5em 0 0 0;
+                     h1{
+                         margin:0 0 0 .5em;
+                         white-space: nowrap;
+                     }
+                     .common{
+                         display: flex;
+                         flex-direction: column;
+                         .start{
+                             position: relative;
+                             top:4em;
+                             left:-12em;
+                             width:100%
+                         }
+                         .tutor{
+                             position: relative;
+                             // top:4em;
+                             left:3em;
+                             width:14em;
+                             margin: .5em 0 0 -6em;
+                         }
+                     }
+                 }
+                 .help{
+                     margin:0 0 15em 0;
+                     .all_links{
+                         img{
+                             margin:0 0 0 13em;
+                         }
+                         .join{
+                             white-space: nowrap;
+                             position: relative;
+                             right:-7em;
+                         }
+                         .help_link{
+                             h2{
+                                 white-space: nowrap;
+                             }
+                             position: relative;
+                             right:14em;
+                             top:13em;
+                             ul{
+                                 a{
+                                     white-space: nowrap;
+                                 }
+                             }
+                         }
+                         .social{
+                             h2{
+                                 white-space: nowrap;
+                             }
+                             width:80%;
+                             position: relative;
+                             right:12em;
+                             top:13em;
+                         }
+                     }
+                 }
+             }
+         }
+         .base{
+             display: flex;
+             flex-direction: column;
+             .right{
+                 // margin:0 0 0 -9em;
+                 width:53%;
+             }
+             .left{
+                 white-space: nowrap;
+                 ul{
+                     li{
+                         padding:0 -2em;
+                     }
+                 }
+             }
+         }
+    }
+}
+
+@media(min-width:321px) and (max-width:375px) {
+    body{
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:25vw;
+                    }
+                }
+            }
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .hiring-sec{
+            margin: 10px;
+            padding: 0;
+            .steps-hire{
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                .steps{
+                    padding: 10px;
+                    max-width: 300px;
+                }
+            }
+        }
+        .faq-sec{
+            width: 99vw;
+            .container{
+                display: flex;
+                flex-direction: column;
+                .faqs{
+                    margin: 20px 0;
+                    .que-ans{
+                        margin: 0 0;
+                        .que-faq{
+                            #btn-1{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            display: grid;
+                            gap: 10px;
+                            ion-icon{
+                                font-size: 14px;
+                                font-weight: 200;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .images{
+            .image{
+                display: grid;
+                grid-template-columns: 42% 42%;
+                margin:1em 0 0 2.5em;
+                .six_image{
+                    width:70%;
+                    height:50%;
+                }
+            }
+        }
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                    }
+                    .common{
+                        // position: relative;
+                        left:5em;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        .start{
+                            position: relative;
+                            top:3em;
+                            left:-8em;
+                            width:103%;
+                            margin:1em 0;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:2em;
+                            left:-2em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:0px) and (max-width:320px){
+    body{   
+        .z-index{
+            .bt-nav{
+                .nav-img{
+                    img{
+                        width:25vw;
+                    }
+                }
+            }
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 90vw;
+        }
+
+        .hiring-sec{
+            width: 90vw;
+            margin: 0 -3em;;
+            padding: 0;
+            .steps-hire{
+                display: flex;
+                flex-direction: column;
+                margin:0 0 0 1em;
+                width:90vw;
+                .steps{
+                    padding: 10px;
+                    margin-left: 4em;
+                }
+            }
+        }
+
+        .faq-sec{
+            width: 99vw;
+            .faqs{
+                margin: 20px 0;
+                .que-ans{
+                    margin: 0 0;
+                    .que-faq{
+                        display: grid;
+                        gap: 10px;
+                        ion-icon{
+                            font-size: 14px;
+                            font-weight: 200;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .images{
+            .image{
+                display: grid;
+                grid-template-columns: 42% 42%;
+                margin:1em 0 0 2.5em;
+                .six_image{
+                    width:70%;
+                    height:50%;
+                }
+            }
+        }
+
+        .foot{
+            margin:12em 0 -2em 0;
+            .main_content{
+                .blue_back{
+                    border-radius: 6em;
+                    width:100vw;
+                    h1{
+                        white-space: nowrap;
+                        margin:0 0 0 -.5em;
+                    }
+                    .common{
+                        display: flex;
+                        flex-direction: column;
+                        // position: relative;
+                        top:-.5em;
+                        right:-6em;
+                            .start{
+                            position: relative;
+                            top:2em;
+                            left:-7em;
+                            margin:1em 0;
+                            width:103%;
+                        }
+                        .tutor{
+                            position: relative;
+                            top:1em;
+                            left:-1em;
+                            width:14em;
+                            margin: .5em 0 0 -6em;
+                        }
+                    }
+                }
+                .help{
+                    .all_links{
+                        display: grid;
+                        grid-template-columns: 40% 40%;
+                        grid-template-rows: 33% 33%;;
+                    }
+                }
+            }
+        }
+        .base{
+            display: flex;
+            flex-direction: column;
+            .right{
+                white-space: nowrap;
+                width:53%;
+            }
+            .left{
+                white-space: nowrap;
+                ul{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+        }
+    }
+}

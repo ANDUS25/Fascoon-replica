@@ -1,3 +1,5 @@
+$white_color:white;
+$Blue-color:#0a369d;
 $color :#004987;
 $h1_font_size:40px;
 $white_color:white;
@@ -57,9 +59,6 @@ $anchor_color:black;
 }
 
 body{
-    background-color: rgb(255, 253, 253);
-    font-family: 'Nunito', sans-serif;
-
     .bt-nav{
         background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3));
         .nav-img{
@@ -93,39 +92,54 @@ body{
             }
         }
     }
-    .first-page{
-        margin: 5%;
-        display: grid;
-        grid-template-columns: 45% 45%;
-        .gd{
-            h1{
-                font-size: 2em;
+
+    .page-main{
+        .both{
+            display: flex;
+            .info{
+                width:55vw;
+                margin:3em;
+                font-size: bold;
+                h1{
+                    color:#0a369d;
+                }
+                .Co{
+                    border-bottom: 2px solid #fbb545;;
+                    display: inline;
+                }
+                span{
+                    display: block;
+                    margin: 1em 0;
+                }
             }
+            .images{
+                width:45vw;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        a{
+            margin: 3em;
+            color: white;
+            background-color: #0a369d;
+            padding: 1em 1.5em;
+            border-radius: .8em;
         }
     }
 
-    .page-two{
-       display: flex;
-       background-color: rgba($color: #8b8787, $alpha: 0.1);
-       flex-direction: column;
-       margin:20% 0;
-       .top , .bottom{
-           display: flex;
-           flex-direction: row;
-           img{
-               width: 50%;
-           }
-           .data{
-               p{
-                   margin:2em;
-               }
-               h1{
-                   margin:1em ;
-                   color:blue;
-                   font-weight: bold;
-               }
-           }
-       }
+    .second-page{
+        width:80vw;
+        margin:5em 0 0 3em;
+        .about-benefit{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-gap: 1.5em;
+            .icon-box{
+                border: 1px solid rgb(158, 149, 149);
+                padding:1em;
+            }
+        }
     }
 
     .images{
@@ -150,7 +164,7 @@ body{
     }
 
     .foot{
-        background-image: url("images/33.png");
+        background-image: url("../images/33.png");
         background-size: cover;
         background-position: center;
     
@@ -234,7 +248,6 @@ body{
             }
         }
     }
-
     .base{
         height:50px;
         padding: 20px 0px;

@@ -41,7 +41,7 @@ body {
 }
 
 body header .imgclass {
-  background-image: url("images/img.jpg");
+  background-image: url("./backup/images/img.jpg");
   background-size: 100vw;
   height: 100%;
   background-repeat: no-repeat;
@@ -535,7 +535,7 @@ body .page-7 .payment .main p {
 body .page-8 .faq {
   background-color: #d1cbcb;
   margin: 5em 0;
-  height: 39vw;
+  height: 45vw;
 }
 
 body .page-8 .faq .after {
@@ -719,7 +719,7 @@ body .page-9 .images .image .four {
 }
 
 body .foot {
-  background-image: url("images/33.png");
+  background-image: url("./backup/images/33.png");
   background-size: cover;
   background-position: center;
 }
@@ -961,7 +961,7 @@ body .topArrow {
     width: 50vw;
   }
   body .page-8 .faq {
-    height: 35em;
+    height: 45em;
   }
   body .page-8 .faq .after {
     margin: 0 7em;
@@ -979,6 +979,10 @@ body .topArrow {
   body .page-9 .blog .blog_div {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  body .page-9 .images {
+    width: 70vw;
+    margin: 0 25em;
   }
   body .foot .main_content {
     margin: 0 40em;
@@ -1037,7 +1041,7 @@ body .topArrow {
   }
   body .page-5 .info .sides .div-right {
     position: relative;
-    left: 67em;
+    left: 64em;
   }
   body .page-6 .basic-info .infoo {
     margin: 0 7em;
@@ -1710,16 +1714,19 @@ body .topArrow {
   body .page-9 .blog .blog_div .one .r-image img, body .page-9 .blog .blog_div .two .r-image img, body .page-9 .blog .blog_div .three .r-image img {
     width: 100%;
   }
-  body .page-9 .images .image {
-    width: 90%;
-    margin: 0 0 0 -.5em;
+  body .page-9 .images {
+    height: 76vw;
   }
-  body .page-9 .images .image .four {
-    -webkit-animation: none;
-            animation: none;
+  body .page-9 .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 45%;
+        grid-template-columns: 45% 45%;
   }
   body .page-9 .images .image .six_image {
-    margin: 0;
+    width: 27vw;
+    margin: 0 0 0 1em;
+    height: 9vh;
   }
   body .foot .main_content .blue_back {
     border-radius: 10em;
@@ -1921,7 +1928,7 @@ body .topArrow {
     margin: 5em 0;
   }
   body .page-8 .faq {
-    height: 60em;
+    height: 75em;
   }
   body .page-8 .faq .main_block {
     margin: 0 1em;
@@ -1986,7 +1993,6 @@ body .topArrow {
     white-space: nowrap;
   }
   body .foot .main_content .blue_back .common {
-    position: relative;
     left: 5em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2000,14 +2006,14 @@ body .topArrow {
   body .foot .main_content .blue_back .common .start {
     position: relative;
     top: 3em;
-    left: -12em;
+    left: -8em;
     width: 103%;
     margin: 1em 0;
   }
   body .foot .main_content .blue_back .common .tutor {
     position: relative;
     top: 2em;
-    left: -6em;
+    left: -2em;
     width: 14em;
     margin: .5em 0 0 -6em;
   }
@@ -2235,21 +2241,20 @@ body .topArrow {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    position: relative;
     top: -.5em;
     right: -6em;
   }
   body .foot .main_content .blue_back .common .start {
     position: relative;
-    top: 3em;
-    left: -12em;
+    top: 2em;
+    left: -7em;
     margin: 1em 0;
     width: 103%;
   }
   body .foot .main_content .blue_back .common .tutor {
     position: relative;
-    top: 2em;
-    left: -6em;
+    top: 1em;
+    left: -1em;
     width: 14em;
     margin: .5em 0 0 -6em;
   }

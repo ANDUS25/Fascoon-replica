@@ -1,362 +1,637 @@
 @media (min-width:1800px) and (max-width:2700px){
-    div{
-        .own-nav{
-            .own-img{
-                width:65%;
+    html{
+        body{
+            .z-index{
+                width:70vw;
+                margin:0 25em;
+            }
+            div{
+                .own-nav{
+                    .own-img{
+                        width:65%;
+                    }
+                }
+            }
+            .login{
+                margin: 7em 0 5em 39em;
+                width:50vw;
+                .left, .right{
+                    width:50%
+                }
+            }
+            .images{
+                margin:0 31em;
+                width:65vw;
+            }
+            .foot{
+                .main_content{
+                    .blue_back{
+                        position: relative;
+                        top:-6em;
+                        width:94em;
+                        .common{
+                            width:58%;
+                        }
+                    }
+                }
+            }
+            .base{
+                margin:0 41em;
             }
         }
-    }
-    .login{
-        margin: 7em 0 5em 39em;
-        width:50vw;
-        .left, .right{
-            width:50%
-        }
-    }
-    .foot{
-        .main_content{
-            margin:0 40em;
-        }
-    }
-    .base{
-        margin:0 41em;
     }
 }
 
 @media (min-width:1100px) and (max-width:1440px){
-    div{
-        .own-nav{
-            .own-img{
-                width:65%;
-            }
-        }
-    }
-    .login{
-        .left, .right{
-            .buttons{
-                width:35vw;
-            }
-            .be{
-                &::before{
-                    width:9em;
-                }
-                &::after{
-                    width:9em;
+    body{
+        div{
+            .own-nav{
+                .own-img{
+                    width:65%;
                 }
             }
         }
-    }
-    .foot{
-        .main_content{
-            .help{
-                margin:5em 6em;
-                .all_links{
-                    display: flex;
-                    justify-content: space-around;
+        .login{
+            .left, .right{
+                .buttons{
+                    width:35vw;
+                }
+                .be{
+                    &::before{
+                        width:9em;
+                    }
+                    &::after{
+                        width:9em;
+                    }
                 }
             }
-            hr{
-                width:90vw;
-                margin:0 0 0 -32em;
+        }
+        .foot{
+            .main_content{
+                .blue_back{
+                    position: relative;
+                    top:-2em;
+                    left:-2em;
+                    .common{
+                        .start, .tutor{
+                            width:15em;
+                        }
+                    }
+                }
+                .help{
+                    margin:5em 6em;
+                    .all_links{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+                hr{
+                    width:90vw;
+                    margin:0 0 0 -32em;
+                }
             }
         }
-    }
-    .base{
-        margin:0 1.5em;
+        .base{
+            margin:0 1.5em;
+        }
     }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
-    div{
-        .own-nav{
-            .own-img{
-                width:55%;
+@media (min-width:770px) and (max-width:1024px) {
+    html{
+        body{
+            div{
+                .own-nav{
+                    .own-img{
+                        width:55%;
+                    }
+                }
+            }
+            .login{
+                width:85vw;
+                .right, .left{
+                    .be{
+                        margin:0 0 0 -2em;
+                        &:before {
+                            width:6em;
+                        }
+                        &:after {
+                          width: 6em;
+                        }
+                    }
+                    .buttons{
+                        width:49vw;
+                        display: flex;
+                        flex-direction: column;
+                        margin:0 0 0 -5em;
+                        button{
+                            margin:1em 3em;
+                        }
+        
+                    }
+                }
+                .left{
+                    margin:0 1em 0 -6em;
+                    width:40vw;
+                }
+                .right{
+                    width:40vw;
+                }
+            }
+            .foot{
+                .main_content{
+                    .blue_back{
+                        width:90vw;
+                        .common{
+                            .start{
+                                margin:0 0 0 -3em;
+                            }
+                        }
+                    }
+                }
+            }
+            .base{
+                .right{
+                    margin:0 ;
+                }
             }
         }
     }
-    .login{
-        width:85vw;
-        .right, .left{
-            .be{
-                margin:0 0 0 -2em;
-                &:before {
-                    width:6em;
-                }
-                &:after {
-                  width: 6em;
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    html{
+        body{
+            .z-index{
+                .bt-nav{
+                    .nav-img{
+                        img{
+                            width:25vw;
+                        }
+                    }
                 }
             }
-            .buttons{
-                width:49vw;
+            div{
+                .own-nav{
+                    .own-img{
+                        width:37vw;
+                        img{
+                            width:35%;
+                        }
+                    }
+                }
+            }
+            .images{
+                .image{
+                    justify-content: space-between;
+                    .six_image{
+                        margin:0 .2em;
+                    }
+                }
+            }
+            .foot{
+                .main_content{
+                    .blue_back{
+                        display: flex;
+                        flex-direction: column;
+                        width:90vw;
+                        h1{
+                            position: relative;
+                            right: -3em;
+                        }
+                        .common{
+                            width:90vw;
+                            margin:.5em -4.5em;
+                            .start{
+                                position: relative;
+                                left:7em;
+                                width:30%;
+                                height: 3em;
+                            }
+                            .tutor{
+                                position: relative;
+                                right:-7em;
+                            }
+                        }
+                    }
+                }
+            }
+            .base{
                 display: flex;
                 flex-direction: column;
-                button{
-                    margin:1em 3em;
+                .right{
+                    position: relative;
+                    right:-16em;
+                    width: 50%;
                 }
-
-            }
-        }
-        .left{
-            margin:0 1em 0 -6em;
-            width:40vw;
-        }
-        .right{
-            width:40vw;
-        }
-    }
-    .base{
-        .right{
-            margin:0 ;
-        }
-    }
-}
-
-@media (min-width:425px) and (max-width:768px) {
-    div{
-        .own-nav{
-            .own-img{
-                width:37vw;
-                img{
-                    width:35%;
+                .left{
+                    ul{
+                        margin:0 9em;
+                    }
                 }
-            }
-        }
-    }
-
-    .login{
-        display: flex;
-        flex-direction: column;
-        .left, .right{
-            width:90vw;
-            border:none;
-            .buttons{
-                display: flex;
-                flex-direction: row;
-                width:90vw;
-                margin:0 0 0 -2em;
-            }
-            .be{
-                &::before{
-                    width: 16em;
-                }
-                &::after{
-                    width: 16em;
-                }
-            }
-            .regii{
-                width:98%;
-            }
-        }
-        .right{
-            margin:0 0 0 -6em;
-        }
-    }
-    .base{
-        display: flex;
-        flex-direction: column;
-        .right{
-            position: relative;
-            right:-16em;
-            width: 50%;
-        }
-        .left{
-            ul{
-                margin:0 9em;
             }
         }
     }
 }
 
-@media (min-width:321px) and (max-width:425px) {
-    .login{
-        width:64%;
-        .right, .left{
-            .buttons{
+@media(min-width:376px) and (max-width:425px){
+    html{
+        body{
+            .z-index{
+                .bt-nav{
+                    .nav-img{
+                        img{
+                            width:25vw;
+                        }
+                    }
+                }
+            }
+            .login{
+                width:64%;
                 display: flex;
                 flex-direction: column;
-                button{
-                    width:85vw;
-                    margin:1em 0 0 2em;
+                .right, .left{
+                    border: none;
+                    .buttons{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        button{
+                            width:85vw;
+                            margin:1em 0 0 2em;
+                        }
+                    }
+                    input[type=email], input[type=password]{
+                        width:90vw;
+                    }
+                }
+                .left{
+                    margin: 0 0 0 -8em ;
+                    .regii{
+                        width:80vw;
+                    }
+                    .buttons{
+                        margin:0 0 0 -3em;
+                    }
+                }
+                .right{
+                    margin: 0 0 0 -10em ;
+                    .regi{
+                        button{
+                            width:80vw;
+                        }
+                    }
+                    .password{
+                        display: flex;
+                        flex-direction: row;
+                        width:80vw;
+                    }
                 }
             }
-            input[type=email], input[type=password]{
-                width:90vw;
-            }
-            .be{
-                &::after{
-                    width:5em
+            .images{
+                height:76vw;
+                .image{
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                    .six_image{
+                        width:27vw;
+                        margin:0 0 0 1em;
+                        height:9vh;
+                    }
                 }
-                &::before{
-                    width:5em
-                }
             }
-        }
-        .left{
-            margin: 0 0 0 -8em ;
-            
-        }
-        .right{
-            margin: 0 0 0 -10em ;
-            .password{
-                display: flex;
-                flex-direction: row;
-                width:80vw;
-            }
-        }
-    }
-    .foot{
-        .main_content{
-             .help{
-                 margin:0 0 15em 0;
-                 .all_links{
-                     img{
-                         margin:0 0 0 13em;
-                     }
-                     .join{
-                         white-space: nowrap;
-                         position: relative;
-                         right:-7em;
-                     }
-                     .help_link{
-                         h2{
+            .foot{
+                .main_content{
+                    .blue_back{
+                        border-radius: 10em;
+                        width:100vw;
+                        padding:-.5em 0 0 0;
+                         h1{
+                             margin:0 0 0 .5em;
                              white-space: nowrap;
                          }
-                         position: relative;
-                         right:14em;
-                         top:13em;
-                         ul{
-                             a{
-                                 white-space: nowrap;
+                         .common{
+                             display: flex;
+                             flex-direction: column;
+                             .start{
+                                 position: relative;
+                                 top:4em;
+                                 left:-12em;
+                                 width:100%
+                             }
+                             .tutor{
+                                 position: relative;
+                                 // top:4em;
+                                 left:3em;
+                                 width:14em;
+                                 margin: .5em 0 0 -6em;
                              }
                          }
                      }
-                     .social{
-                         h2{
-                             white-space: nowrap;
+                     .help{
+                         margin:0 0 15em 0;
+                         .all_links{
+                             img{
+                                 margin:0 0 0 13em;
+                             }
+                             .join{
+                                 white-space: nowrap;
+                                 position: relative;
+                                 right:-7em;
+                             }
+                             .help_link{
+                                 h2{
+                                     white-space: nowrap;
+                                 }
+                                 position: relative;
+                                 right:14em;
+                                 top:13em;
+                                 ul{
+                                     a{
+                                         white-space: nowrap;
+                                     }
+                                 }
+                             }
+                             .social{
+                                 h2{
+                                     white-space: nowrap;
+                                 }
+                                 width:80%;
+                                 position: relative;
+                                 right:12em;
+                                 top:13em;
+                             }
                          }
-                         width:80%;
-                         position: relative;
-                         right:12em;
-                         top:13em;
                      }
                  }
              }
-         }
-     }
-     .base{
-         display: flex;
-         flex-direction: column;
-         .right{
-             margin:0 0 0 -9em;
-             width:53%;
-         }
-         .left{
-             white-space: nowrap;
-             ul{
-                 li{
-                     padding:0 -2em;
+             .base{
+                 display: flex;
+                 flex-direction: column;
+                 .right{
+                     // margin:0 0 0 -9em;
+                     width:53%;
+                 }
+                 .left{
+                     white-space: nowrap;
+                     ul{
+                         li{
+                             padding:0 -2em;
+                         }
+                     }
                  }
              }
-         }
-     }
+        }
+    }
 }
 
-@media (min-width:0) and (max-width:375px) {
-    div{
-        .own-nav{
-            .own-img{
-                img{
-                    width:35%;
+@media (min-width:321px) and (max-width:375px) {
+    html{
+        body{
+            .z-index{
+                .bt-nav{
+                    .nav-img{
+                        img{
+                            width:25vw;
+                        }
+                    }
                 }
             }
-        }
-    }
-    .login{
-        width:64%;
-        display: flex;
-        flex-direction: column;
-        .right, .left{
-            border: none;
-            .buttons{
+            .login{
+                width:64%;
                 display: flex;
                 flex-direction: column;
-                button{
-                    width:85vw;
-                    margin:1em 0 0 2em;
+                .right, .left{
+                    border: none;
+                    .buttons{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        button{
+                            width:85vw;
+                            margin:1em 0 0 2em;
+                        }
+                    }
+                    input[type=email], input[type=password]{
+                        width:90vw;
+                    }
                 }
-                label{
-                    white-space: normal;
+                .left{
+                    margin: 0 0 0 -8em ;
+                    .regii{
+                        width:80vw;
+                    }
+                    .buttons{
+                        margin:0 0 0 -3em;
+                    }
+                }
+                .right{
+                    margin: 0 0 0 -10em ;
+                    .regi{
+                        button{
+                            width:80vw;
+                        }
+                    }
+                    .password{
+                        display: flex;
+                        flex-direction: row;
+                        width:80vw;
+                    }
                 }
             }
-            input[type=email], input[type=password]{
-                width:90vw;
-            }
-            .be{
-                width:100vw;
-                &::after{
-                    width:4em
-                }
-                &::before{
-                    width:4em
-                }
-            }
-        }
-        .left{
-            margin: 0 0 0 -9em ;
-            .regii{
-                width:90vw;
-            }
-        }
-        .right{
-            margin: 0 0 0 -10em ;
-            .password{
-                display: flex;
-                flex-direction: row;
-                width:80vw;
-            }
-            .regi{
-                width:90vw;
-            }
-        }
-    }
-    .foot{
-        margin:12em 0 -2em 0;
-        .main_content{
-            .help{
-                .all_links{
+            .images{
+                .image{
                     display: grid;
-                    grid-template-columns: 40% 40%;
-                    grid-template-rows: 33% 33%;;
-                    img{
-                        margin:0
+                    grid-template-columns: 42% 42%;
+                    margin:1em 0 0 2.5em;
+                    .six_image{
+                        width:70%;
+                        height:50%;
                     }
-                    .join{
-                        right:0;
+                }
+            }
+            .foot{
+                margin:12em 0 -2em 0;
+                .main_content{
+                    .blue_back{
+                        border-radius: 6em;
+                        width:100vw;
+                        h1{
+                            white-space: nowrap;
+                        }
+                        .common{
+                            // position: relative;
+                            left:5em;
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            .start{
+                                position: relative;
+                                top:3em;
+                                left:-8em;
+                                width:103%;
+                                margin:1em 0;
+                            }
+                            .tutor{
+                                position: relative;
+                                top:2em;
+                                left:-2em;
+                                width:14em;
+                                margin: .5em 0 0 -6em;
+                            }
+                        }
                     }
-                    .help_link{
-                        right:0;
+                    .help{
+                        .all_links{
+                            display: grid;
+                            grid-template-columns: 40% 40%;
+                            grid-template-rows: 33% 33%;;
+                        }
                     }
-                    .social{
-                        right:0;
+                }
+            }
+            .base{
+                display: flex;
+                flex-direction: column;
+                .right{
+                    white-space: nowrap;
+                    width:53%;
+                }
+                .left{
+                    white-space: nowrap;
+                    ul{
+                        display: grid;
+                        grid-template-columns: auto auto;
                     }
                 }
             }
         }
     }
-    .base{
-        display: flex;
-        flex-direction: column;
-        .right{
-            white-space: nowrap;
-            width:53%;
-            margin:0 0 0 5em;
-        }
-        .left{
-            white-space: nowrap;
-            ul{
-                display: grid;
-                grid-template-columns: auto auto;
+}
+
+@media (min-width:0) and (max-width:320px) {
+    html{
+        body{
+            .z-index{
+                .bt-nav{
+                    .nav-img{
+                        img{
+                            width:25vw;
+                        }
+                    }
+                }
+            }
+            .login{
+                width:55vw;
+                display: flex;
+                flex-direction: column;
+                .right, .left{
+                    border: none;
+                    width:100%;
+                    .buttons{
+                        display: flex;
+                        flex-direction: column;
+                        button{
+                            width:85vw;
+                            margin:1em 0 0 2em;
+                        }
+                        label{
+                            white-space: normal;
+                        }
+                    }
+                    input[type=email], input[type=password]{
+                        width:90vw;
+                    }
+                    .be{
+                        width:100vw;
+                    }
+                }
+                .left{
+                    margin: 0 0 0 -9em ;
+                    border-right: none;
+                    .regii{
+                        width:90vw;
+                    }
+                }
+                .right{
+                    margin: 0 0 0 -10em ;
+                    .password{
+                        display: flex;
+                        flex-direction: row;
+                        width:80vw;
+                    }
+                    .regi{
+                        width:90vw;
+                    }
+                }
+            }
+            .images{
+                .image{
+                    display: grid;
+                    grid-template-columns: 42% 42%;
+                    margin:1em 0 0 2.5em;
+                    .six_image{
+                        width:70%;
+                        height:50%;
+                    }
+                }
+            }
+            .foot{
+                margin:12em 0 -2em 0;
+                .main_content{
+                    .blue_back{
+                        border-radius: 6em;
+                        width:100vw;
+                        h1{
+                            white-space: nowrap;
+                            margin:0 0 0 -.5em;
+                        }
+                        .common{
+                            display: flex;
+                            flex-direction: column;
+                            // position: relative;
+                            top:-.5em;
+                            right:-6em;
+                                .start{
+                                position: relative;
+                                top:2em;
+                                left:-7em;
+                                margin:1em 0;
+                                width:103%;
+                            }
+                            .tutor{
+                                position: relative;
+                                top:1em;
+                                left:-1em;
+                                width:14em;
+                                margin: .5em 0 0 -6em;
+                            }
+                        }
+                    }
+                    .help{
+                        .all_links{
+                            display: grid;
+                            grid-template-columns: 40% 40%;
+                            grid-template-rows: 33% 33%;;
+                        }
+                    }
+                }
+            }
+            .base{
+                display: flex;
+                flex-direction: column;
+                .right{
+                    white-space: nowrap;
+                    width:53%;
+                }
+                .left{
+                    white-space: nowrap;
+                    ul{
+                        display: grid;
+                        grid-template-columns: auto auto;
+                    }
+                }
             }
         }
     }
-} 
+}

@@ -133,7 +133,7 @@ $anchor_color:black;
     }
 }
 .foot{
-    background-image: url("../../images/33.png");
+    background-image: url("../images/33.png");
     background-size: cover;
     background-position: center;
 
@@ -245,7 +245,90 @@ $anchor_color:black;
     }
 }
 
+@media (min-width:1700px) and (max-width:2560px){
+    .z-index, .images{
+        width:70vw;
+        margin:0 25em;
+    }
+    .foot{
+        .main_content{
+            margin:0 40em;
+            .blue_back{
+                position: relative;
+                top:-6em;
+                width:94em;
+                .common{
+                    width:58%;
+                }
+            }
+        }
+    }
+    .base{
+        margin:0 41em;
+    }
+}
+
+@media (min-width:1100px) and (max-width:1500px) {
+    .foot{
+        .main_content{
+            .blue_back{
+                position: relative;
+                top:-2em;
+                left:-2em;
+                .common{
+                    .start, .tutor{
+                        width:15em;
+                    }
+                }
+            }
+            .help{
+                margin:5em 6em;
+                .all_links{
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            hr{
+                width:90vw;
+                margin:0 0 0 -32em;
+            }
+        }
+    }
+    .base{
+        margin:0 1.5em;
+    }
+}
+
+@media (min-width:780px) and (max-width:1025px){
+    .foot{
+        .main_content{
+            .blue_back{
+                width:90vw;
+                .common{
+                    .start{
+                        margin:0 0 0 -3em;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        .right{
+            margin:0 0 0 -2em;
+        }
+    }
+}
+
 @media (min-width:426px) and (max-width:768px) {
+    .z-index{
+        .bt-nav{
+            .nav-img{
+                img{
+                    width:15vw;
+                }
+            }
+        }
+    }
     .main{
         .data{
             h3{
@@ -258,8 +341,66 @@ $anchor_color:black;
             }
         }
     }
+    .images{
+        .image{
+            justify-content: space-between;
+            .six_image{
+                margin:0 .2em;
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .blue_back{
+                display: flex;
+                flex-direction: column;
+                width:90vw;
+                h1{
+                    position: relative;
+                    right: -3em;
+                }
+                .common{
+                    width:90vw;
+                    margin:.5em -4.5em;
+                    .start{
+                        position: relative;
+                        left:7em;
+                        width:30%;
+                        height: 3em;
+                    }
+                    .tutor{
+                        position: relative;
+                        right:-7em;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            position: relative;
+            right:-16em;
+            width: 50%;
+        }
+        .left{
+            ul{
+                margin:0 9em;
+            }
+        }
+    }
 }
 @media (min-width:376px) and (max-width:425px) {
+    .z-index{
+        .bt-nav{
+            .nav-img{
+                img{
+                    width:25vw;
+                }
+            }
+        }
+    }
     .main{
         .data{
             text-align: center;
@@ -372,87 +513,71 @@ $anchor_color:black;
     }
 }
 @media (min-width:0) and (max-width:375px) {
+    .z-index{
+        .bt-nav{
+            .nav-img{
+                img{
+                    width:25vw;
+                }
+            }
+        }
+    }
     .main{
         .form{
             margin:0;
+            input, textarea{
+                width:85vw;
+            }
         }
     }
     .images{
-        margin:4em 0 14em 1em;
         .image{
-            margin:4em 0 7em 1em;
-            width:90%;
             display: grid;
-            grid-template-columns: 40vw 40vw;
-            .four{
-                animation: none;
-            }
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
             .six_image{
-                margin: 0;
-                width:43vw;
+                width:70%;
+                height:50%;
             }
         }
     }
     .foot{
-       .main_content{
-           .blue_back{
-               border-radius: 10em;
-               width:100vw;
-               padding:-.5em 0 0 0;
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
                 h1{
-                    margin:0 0 0 .5em;
                     white-space: nowrap;
+                    margin:0 0 0 -.5em;
                 }
                 .common{
                     display: flex;
                     flex-direction: column;
-                    .start{
+                    // position: relative;
+                    top:-.5em;
+                    right:-6em;
+                        .start{
                         position: relative;
-                        top:4em;
-                        left:-9em;
-                        width:100%
+                        top:2em;
+                        left:-7em;
+                        margin:1em 0;
+                        width:103%;
                     }
                     .tutor{
                         position: relative;
-                        left:-3em;
-                        width:15em;
-                        margin: 4.5em 0 0 -6em;
+                        top:1em;
+                        left:-1em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
                     }
                 }
             }
             .help{
-                margin:0 0 15em 0;
                 .all_links{
-                    img{
-                        margin:0 0 0 13em;
-                    }
-                    .join{
-                        white-space: nowrap;
-                        position: relative;
-                        right:-7em;
-                    }
-                    .help_link{
-                        h2{
-                            white-space: nowrap;
-                        }
-                        position: relative;
-                        right:14em;
-                        top:13em;
-                        ul{
-                            a{
-                                white-space: nowrap;
-                            }
-                        }
-                    }
-                    .social{
-                        h2{
-                            white-space: nowrap;
-                        }
-                        width:80%;
-                        position: relative;
-                        right:12em;
-                        top:13em;
-                    }
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
                 }
             }
         }
@@ -461,14 +586,14 @@ $anchor_color:black;
         display: flex;
         flex-direction: column;
         .right{
-            width:75%;
+            white-space: nowrap;
+            width:53%;
         }
         .left{
             white-space: nowrap;
             ul{
-                li{
-                    padding:0 -2em;
-                }
+                display: grid;
+                grid-template-columns: auto auto;
             }
         }
     }

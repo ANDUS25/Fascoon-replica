@@ -2,46 +2,46 @@ html {
   font-family: 'Nunito', sans-serif;
 }
 
-.z-index .bt-nav {
+html body .z-index .bt-nav {
   background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right, white, rgba(255, 255, 255, 0.3));
 }
 
-.z-index .bt-nav .nav-img {
+html body .z-index .bt-nav .nav-img {
   width: 25%;
 }
 
-.z-index .bt-nav .nav-img img {
+html body .z-index .bt-nav .nav-img img {
   width: 28%;
   margin: 1em 0 1em 3em;
 }
 
-.z-index .bt-nav .nav-t {
+html body .z-index .bt-nav .nav-t {
   background-color: black;
 }
 
-.z-index .bt-nav .nav-c {
+html body .z-index .bt-nav .nav-c {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.z-index .bt-nav .nav-c .nav-it .nav-b a {
+html body .z-index .bt-nav .nav-c .nav-it .nav-b a {
   color: black;
   font-weight: bold;
 }
 
-.z-index .bt-nav .nav-c .apply {
+html body .z-index .bt-nav .nav-c .apply {
   background-color: blue;
   padding: .7em 1.5em;
   border-radius: 1.5em;
   white-space: nowrap;
 }
 
-.z-index .bt-nav .nav-c .apply a {
+html body .z-index .bt-nav .nav-c .apply a {
   color: white;
 }
 
-div .own-nav {
+html body div .own-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,15 +54,15 @@ div .own-nav {
           justify-content: space-between;
 }
 
-div .own-nav .own-img {
+html body div .own-nav .own-img {
   width: 70%;
 }
 
-div .own-nav .own-img img {
+html body div .own-nav .own-img img {
   width: 11%;
 }
 
-.login {
+html body .login {
   width: 80vw;
   margin: 5em 0 0 10em;
   display: -webkit-box;
@@ -70,26 +70,26 @@ div .own-nav .own-img img {
   display: flex;
 }
 
-.login .left, .login .right {
+html body .login .left, html body .login .right {
   padding: 1em;
   width: 36vw;
   border-right: 1px solid gray;
 }
 
-.login .left .logo, .login .right .logo {
+html body .login .left .logo, html body .login .right .logo {
   font-size: 3em;
 }
 
-.login .left label, .login .right label {
+html body .login .left label, html body .login .right label {
   display: block;
 }
 
-.login .left label::after, .login .right label::after {
+html body .login .left label::after, html body .login .right label::after {
   content: "*";
   color: red;
 }
 
-.login .left input[type=email], .login .left input[type=password], .login .right input[type=email], .login .right input[type=password] {
+html body .login .left input[type=email], html body .login .left input[type=password], html body .login .right input[type=email], html body .login .right input[type=password] {
   width: 100%;
   margin: 1em -0.4em;
   padding: 1em 0;
@@ -97,11 +97,11 @@ div .own-nav .own-img img {
   border-radius: 2em;
 }
 
-.login .left .regi, .login .right .regi {
+html body .login .left .regi, html body .login .right .regi {
   display: block;
 }
 
-.login .left .regi button, .login .right .regi button {
+html body .login .left .regi button, html body .login .right .regi button {
   -webkit-transition: all .5s linear .2s;
   transition: all .5s linear .2s;
   width: 100%;
@@ -109,12 +109,12 @@ div .own-nav .own-img img {
   margin: 1em 0;
 }
 
-.login .left .regi button:hover, .login .right .regi button:hover {
+html body .login .left .regi button:hover, html body .login .right .regi button:hover {
   background-color: black;
   color: white;
 }
 
-.login .left .regii, .login .right .regii {
+html body .login .left .regii, html body .login .right .regii {
   display: block;
   -webkit-transition: all .5s linear .2s;
   transition: all .5s linear .2s;
@@ -127,11 +127,11 @@ div .own-nav .own-img img {
   text-decoration: none;
 }
 
-.login .left .regii:hover, .login .right .regii:hover {
+html body .login .left .regii:hover, html body .login .right .regii:hover {
   background-color: black;
 }
 
-.login .left .password, .login .right .password {
+html body .login .left .password, html body .login .right .password {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,41 +143,18 @@ div .own-nav .own-img img {
           align-items: center;
 }
 
-.login .left .be, .login .right .be {
+html body .login .left .be, html body .login .right .be {
   text-align: center;
   position: relative;
 }
 
-.login .left .be:before, .login .right .be:before {
-  content: "";
-  display: block;
-  width: 10em;
-  height: 3px;
-  background: #191970;
-  left: 2em;
-  top: 38%;
-  position: absolute;
-}
-
-.login .left .be:after, .login .right .be:after {
-  content: "";
-  display: block;
-  width: 10em;
-  height: 3px;
-  background: #191970;
-  right: 2em;
-  top: 51%;
-  position: absolute;
-}
-
-.login .left .buttons button, .login .right .buttons button {
+html body .login .left .buttons button, html body .login .right .buttons button {
   border-radius: 2em;
   margin: 2em 0;
-  width: 49%;
   padding: 1em 2em;
 }
 
-.login .left .buttons button a, .login .right .buttons button a {
+html body .login .left .buttons button a, html body .login .right .buttons button a {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -193,43 +170,125 @@ div .own-nav .own-img img {
           justify-content: space-between;
 }
 
-.login .left .buttons button a i, .login .left .buttons button a span, .login .right .buttons button a i, .login .right .buttons button a span {
+html body .login .left .buttons button a i, html body .login .left .buttons button a span, html body .login .right .buttons button a i, html body .login .right .buttons button a span {
   font-size: 1.5em;
   color: white;
 }
 
-.login .left .buttons .face, .login .right .buttons .face {
+html body .login .left .buttons .face, html body .login .right .buttons .face {
   background-color: #111174;
 }
 
-.login .left .buttons .goo, .login .right .buttons .goo {
+html body .login .left .buttons .goo, html body .login .right .buttons .goo {
   background-color: #4058c5;
 }
 
-.login .left {
+html body .login .left {
   padding: 1em 3em 0 0;
 }
 
-.login .right {
+html body .login .right {
   border-right: none;
   margin: 0 0 0 2em;
 }
 
-.foot {
-  background-image: url("../../images/33.png");
+html body .images {
+  height: 250px;
+  width: 100%;
+}
+
+html body .images h1 {
+  font-size: 40px;
+  color: #004987;
+  margin: 0rem 5rem;
+  padding: 2rem 0px;
+}
+
+html body .images .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem 4rem;
+}
+
+html body .images .image .six_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -3em;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+html body .images .image .four {
+  -webkit-animation: rotate 5s linear .2s infinite;
+          animation: rotate 5s linear .2s infinite;
+}
+
+html body .foot {
+  background-image: url("../images/33.png");
   background-size: cover;
   background-position: center;
 }
 
-.foot .main_content .help {
+html body .foot .main_content .blue_back {
+  background-color: #004987;
+  width: 75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+  margin: 100px auto;
+  border-radius: 90px 90px;
+}
+
+html body .foot .main_content .blue_back h1 {
+  color: white;
+  width: 38vw;
+}
+
+html body .foot .main_content .blue_back .common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .foot .main_content .blue_back .common .start {
+  background-color: #d6b80c;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+html body .foot .main_content .blue_back .common .start a {
+  text-decoration: none;
+  color: white;
+}
+
+html body .foot .main_content .blue_back .common .tutor {
+  background-color: #6243aa;
+  margin: 0px 30px;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+html body .foot .main_content .blue_back .common .tutor a {
+  text-decoration: none;
+  color: white;
+}
+
+html body .foot .main_content .help {
   margin: 7rem 0;
 }
 
-.foot .main_content .help a {
+html body .foot .main_content .help a {
   color: inherit;
 }
 
-.foot .main_content .help .all_links {
+html body .foot .main_content .help .all_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,14 +299,13 @@ div .own-nav .own-img img {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 8em 0;
 }
 
-.foot .main_content .help .all_links .join ul {
+html body .foot .main_content .help .all_links .join ul {
   padding: 20px 0px;
 }
 
-.foot .main_content .help .all_links .join ul a {
+html body .foot .main_content .help .all_links .join ul a {
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,18 +315,18 @@ div .own-nav .own-img img {
   transition: all linear .3s;
 }
 
-.foot .main_content .help .all_links .join ul a:hover {
+html body .foot .main_content .help .all_links .join ul a:hover {
   color: #0d6edd;
   margin: 0px 20px;
   -webkit-transition: .2s ease-in-out .3s;
   transition: .2s ease-in-out .3s;
 }
 
-.foot .main_content .help .help_link ul {
+html body .foot .main_content .help .help_link ul {
   padding: 20px 0px;
 }
 
-.foot .main_content .help .help_link ul a {
+html body .foot .main_content .help .help_link ul a {
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,27 +336,27 @@ div .own-nav .own-img img {
   transition: all linear .3s;
 }
 
-.foot .main_content .help .help_link ul a:hover {
+html body .foot .main_content .help .help_link ul a:hover {
   color: #0d6edd;
   margin: 0px 20px;
   -webkit-transition: .2s ease-in-out .3s;
   transition: .2s ease-in-out .3s;
 }
 
-.foot .main_content .help .social ol {
+html body .foot .main_content .help .social ol {
   padding: 20px 0px;
   list-style: none;
 }
 
-.foot .main_content .help .social ol li {
+html body .foot .main_content .help .social ol li {
   padding: 10px 0px;
 }
 
-.foot .main_content .help .social ol li:hover {
+html body .foot .main_content .help .social ol li:hover {
   color: #004987;
 }
 
-.base {
+html body .base {
   height: 50px;
   padding: 20px 0px;
   display: -ms-grid;
@@ -307,15 +365,15 @@ div .own-nav .own-img img {
       grid-template-columns: 35% 65%;
 }
 
-.base a {
+html body .base a {
   color: inherit;
 }
 
-.base .right {
+html body .base .right {
   margin: 0px 2.5rem;
 }
 
-.base .left ul {
+html body .base .left ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,83 +385,104 @@ div .own-nav .own-img img {
       justify-content: space-around;
 }
 
-.base .left ul li {
+html body .base .left ul li {
   list-style: none;
 }
 
-.base .left ul li a {
+html body .base .left ul li a {
   text-decoration: none;
   padding: 0px 10px;
 }
 
 @media (min-width: 1800px) and (max-width: 2700px) {
-  div .own-nav .own-img {
+  html body .z-index {
+    width: 70vw;
+    margin: 0 25em;
+  }
+  html body div .own-nav .own-img {
     width: 65%;
   }
-  .login {
+  html body .login {
     margin: 7em 0 5em 39em;
     width: 50vw;
   }
-  .login .left, .login .right {
+  html body .login .left, html body .login .right {
     width: 50%;
   }
-  .foot .main_content {
-    margin: 0 40em;
+  html body .images {
+    margin: 0 31em;
+    width: 65vw;
   }
-  .base {
+  html body .foot .main_content .blue_back {
+    position: relative;
+    top: -6em;
+    width: 94em;
+  }
+  html body .foot .main_content .blue_back .common {
+    width: 58%;
+  }
+  html body .base {
     margin: 0 41em;
   }
 }
 
 @media (min-width: 1100px) and (max-width: 1440px) {
-  div .own-nav .own-img {
+  body div .own-nav .own-img {
     width: 65%;
   }
-  .login .left .buttons, .login .right .buttons {
+  body .login .left .buttons, body .login .right .buttons {
     width: 35vw;
   }
-  .login .left .be::before, .login .right .be::before {
+  body .login .left .be::before, body .login .right .be::before {
     width: 9em;
   }
-  .login .left .be::after, .login .right .be::after {
+  body .login .left .be::after, body .login .right .be::after {
     width: 9em;
   }
-  .foot .main_content .help {
+  body .foot .main_content .blue_back {
+    position: relative;
+    top: -2em;
+    left: -2em;
+  }
+  body .foot .main_content .blue_back .common .start, body .foot .main_content .blue_back .common .tutor {
+    width: 15em;
+  }
+  body .foot .main_content .help {
     margin: 5em 6em;
   }
-  .foot .main_content .help .all_links {
+  body .foot .main_content .help .all_links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .foot .main_content hr {
+  body .foot .main_content hr {
     width: 90vw;
     margin: 0 0 0 -32em;
   }
-  .base {
+  body .base {
     margin: 0 1.5em;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  div .own-nav .own-img {
+@media (min-width: 770px) and (max-width: 1024px) {
+  html body div .own-nav .own-img {
     width: 55%;
   }
-  .login {
+  html body .login {
     width: 85vw;
   }
-  .login .right .be, .login .left .be {
+  html body .login .right .be, html body .login .left .be {
     margin: 0 0 0 -2em;
   }
-  .login .right .be:before, .login .left .be:before {
+  html body .login .right .be:before, html body .login .left .be:before {
     width: 6em;
   }
-  .login .right .be:after, .login .left .be:after {
+  html body .login .right .be:after, html body .login .left .be:after {
     width: 6em;
   }
-  .login .right .buttons, .login .left .buttons {
+  html body .login .right .buttons, html body .login .left .buttons {
     width: 49vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -412,30 +491,76 @@ div .own-nav .own-img img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 0 0 -5em;
   }
-  .login .right .buttons button, .login .left .buttons button {
+  html body .login .right .buttons button, html body .login .left .buttons button {
     margin: 1em 3em;
   }
-  .login .left {
+  html body .login .left {
     margin: 0 1em 0 -6em;
     width: 40vw;
   }
-  .login .right {
+  html body .login .right {
     width: 40vw;
   }
-  .base .right {
+  html body .foot .main_content .blue_back {
+    width: 90vw;
+  }
+  html body .foot .main_content .blue_back .common .start {
+    margin: 0 0 0 -3em;
+  }
+  html body .base .right {
     margin: 0;
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
-  div .own-nav .own-img {
+@media (min-width: 426px) and (max-width: 768px) {
+  html body .z-index .bt-nav .nav-img img {
+    width: 25vw;
+  }
+  html body div .own-nav .own-img {
     width: 37vw;
   }
-  div .own-nav .own-img img {
+  html body div .own-nav .own-img img {
     width: 35%;
   }
-  .login {
+  html body .images .image {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .images .image .six_image {
+    margin: 0 .2em;
+  }
+  html body .foot .main_content .blue_back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90vw;
+  }
+  html body .foot .main_content .blue_back h1 {
+    position: relative;
+    right: -3em;
+  }
+  html body .foot .main_content .blue_back .common {
+    width: 90vw;
+    margin: .5em -4.5em;
+  }
+  html body .foot .main_content .blue_back .common .start {
+    position: relative;
+    left: 7em;
+    width: 30%;
+    height: 3em;
+  }
+  html body .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    right: -7em;
+  }
+  html body .base {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -444,57 +569,22 @@ div .own-nav .own-img img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .login .left, .login .right {
-    width: 90vw;
-    border: none;
-  }
-  .login .left .buttons, .login .right .buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 90vw;
-    margin: 0 0 0 -2em;
-  }
-  .login .left .be::before, .login .right .be::before {
-    width: 16em;
-  }
-  .login .left .be::after, .login .right .be::after {
-    width: 16em;
-  }
-  .login .left .regii, .login .right .regii {
-    width: 98%;
-  }
-  .login .right {
-    margin: 0 0 0 -6em;
-  }
-  .base {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .base .right {
+  html body .base .right {
     position: relative;
     right: -16em;
     width: 50%;
   }
-  .base .left ul {
+  html body .base .left ul {
     margin: 0 9em;
   }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
-  .login {
-    width: 64%;
+@media (min-width: 376px) and (max-width: 425px) {
+  html body .z-index .bt-nav .nav-img img {
+    width: 25vw;
   }
-  .login .right .buttons, .login .left .buttons {
+  html body .login {
+    width: 64%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -503,26 +593,42 @@ div .own-nav .own-img img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .login .right .buttons button, .login .left .buttons button {
+  html body .login .right, html body .login .left {
+    border: none;
+  }
+  html body .login .right .buttons, html body .login .left .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  html body .login .right .buttons button, html body .login .left .buttons button {
     width: 85vw;
     margin: 1em 0 0 2em;
   }
-  .login .right input[type=email], .login .right input[type=password], .login .left input[type=email], .login .left input[type=password] {
+  html body .login .right input[type=email], html body .login .right input[type=password], html body .login .left input[type=email], html body .login .left input[type=password] {
     width: 90vw;
   }
-  .login .right .be::after, .login .left .be::after {
-    width: 5em;
-  }
-  .login .right .be::before, .login .left .be::before {
-    width: 5em;
-  }
-  .login .left {
+  html body .login .left {
     margin: 0 0 0 -8em;
   }
-  .login .right {
+  html body .login .left .regii {
+    width: 80vw;
+  }
+  html body .login .left .buttons {
+    margin: 0 0 0 -3em;
+  }
+  html body .login .right {
     margin: 0 0 0 -10em;
   }
-  .login .right .password {
+  html body .login .right .regi button {
+    width: 80vw;
+  }
+  html body .login .right .password {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -532,38 +638,82 @@ div .own-nav .own-img img {
             flex-direction: row;
     width: 80vw;
   }
-  .foot .main_content .help {
+  html body .images {
+    height: 76vw;
+  }
+  html body .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 45%;
+        grid-template-columns: 45% 45%;
+  }
+  html body .images .image .six_image {
+    width: 27vw;
+    margin: 0 0 0 1em;
+    height: 9vh;
+  }
+  html body .foot .main_content .blue_back {
+    border-radius: 10em;
+    width: 100vw;
+    padding: -.5em 0 0 0;
+  }
+  html body .foot .main_content .blue_back h1 {
+    margin: 0 0 0 .5em;
+    white-space: nowrap;
+  }
+  html body .foot .main_content .blue_back .common {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .foot .main_content .blue_back .common .start {
+    position: relative;
+    top: 4em;
+    left: -12em;
+    width: 100%;
+  }
+  html body .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    left: 3em;
+    width: 14em;
+    margin: .5em 0 0 -6em;
+  }
+  html body .foot .main_content .help {
     margin: 0 0 15em 0;
   }
-  .foot .main_content .help .all_links img {
+  html body .foot .main_content .help .all_links img {
     margin: 0 0 0 13em;
   }
-  .foot .main_content .help .all_links .join {
+  html body .foot .main_content .help .all_links .join {
     white-space: nowrap;
     position: relative;
     right: -7em;
   }
-  .foot .main_content .help .all_links .help_link {
+  html body .foot .main_content .help .all_links .help_link {
     position: relative;
     right: 14em;
     top: 13em;
   }
-  .foot .main_content .help .all_links .help_link h2 {
+  html body .foot .main_content .help .all_links .help_link h2 {
     white-space: nowrap;
   }
-  .foot .main_content .help .all_links .help_link ul a {
+  html body .foot .main_content .help .all_links .help_link ul a {
     white-space: nowrap;
   }
-  .foot .main_content .help .all_links .social {
+  html body .foot .main_content .help .all_links .social {
     width: 80%;
     position: relative;
     right: 12em;
     top: 13em;
   }
-  .foot .main_content .help .all_links .social h2 {
+  html body .foot .main_content .help .all_links .social h2 {
     white-space: nowrap;
   }
-  .base {
+  html body .base {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -572,23 +722,22 @@ div .own-nav .own-img img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .base .right {
-    margin: 0 0 0 -9em;
+  html body .base .right {
     width: 53%;
   }
-  .base .left {
+  html body .base .left {
     white-space: nowrap;
   }
-  .base .left ul li {
+  html body .base .left ul li {
     padding: 0 -2em;
   }
 }
 
-@media (min-width: 0) and (max-width: 375px) {
-  div .own-nav .own-img img {
-    width: 35%;
+@media (min-width: 321px) and (max-width: 375px) {
+  html body .z-index .bt-nav .nav-img img {
+    width: 25vw;
   }
-  .login {
+  html body .login {
     width: 64%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -598,10 +747,10 @@ div .own-nav .own-img img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .login .right, .login .left {
+  html body .login .right, html body .login .left {
     border: none;
   }
-  .login .right .buttons, .login .left .buttons {
+  html body .login .right .buttons, html body .login .left .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -609,36 +758,31 @@ div .own-nav .own-img img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
   }
-  .login .right .buttons button, .login .left .buttons button {
+  html body .login .right .buttons button, html body .login .left .buttons button {
     width: 85vw;
     margin: 1em 0 0 2em;
   }
-  .login .right .buttons label, .login .left .buttons label {
-    white-space: normal;
-  }
-  .login .right input[type=email], .login .right input[type=password], .login .left input[type=email], .login .left input[type=password] {
+  html body .login .right input[type=email], html body .login .right input[type=password], html body .login .left input[type=email], html body .login .left input[type=password] {
     width: 90vw;
   }
-  .login .right .be, .login .left .be {
-    width: 100vw;
+  html body .login .left {
+    margin: 0 0 0 -8em;
   }
-  .login .right .be::after, .login .left .be::after {
-    width: 4em;
+  html body .login .left .regii {
+    width: 80vw;
   }
-  .login .right .be::before, .login .left .be::before {
-    width: 4em;
+  html body .login .left .buttons {
+    margin: 0 0 0 -3em;
   }
-  .login .left {
-    margin: 0 0 0 -9em;
-  }
-  .login .left .regii {
-    width: 90vw;
-  }
-  .login .right {
+  html body .login .right {
     margin: 0 0 0 -10em;
   }
-  .login .right .password {
+  html body .login .right .regi button {
+    width: 80vw;
+  }
+  html body .login .right .password {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -648,13 +792,53 @@ div .own-nav .own-img img {
             flex-direction: row;
     width: 80vw;
   }
-  .login .right .regi {
-    width: 90vw;
+  html body .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% 42%;
+        grid-template-columns: 42% 42%;
+    margin: 1em 0 0 2.5em;
   }
-  .foot {
+  html body .images .image .six_image {
+    width: 70%;
+    height: 50%;
+  }
+  html body .foot {
     margin: 12em 0 -2em 0;
   }
-  .foot .main_content .help .all_links {
+  html body .foot .main_content .blue_back {
+    border-radius: 6em;
+    width: 100vw;
+  }
+  html body .foot .main_content .blue_back h1 {
+    white-space: nowrap;
+  }
+  html body .foot .main_content .blue_back .common {
+    left: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  html body .foot .main_content .blue_back .common .start {
+    position: relative;
+    top: 3em;
+    left: -8em;
+    width: 103%;
+    margin: 1em 0;
+  }
+  html body .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    top: 2em;
+    left: -2em;
+    width: 14em;
+    margin: .5em 0 0 -6em;
+  }
+  html body .foot .main_content .help .all_links {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% 40%;
@@ -662,19 +846,7 @@ div .own-nav .own-img img {
     -ms-grid-rows: 33% 33%;
         grid-template-rows: 33% 33%;
   }
-  .foot .main_content .help .all_links img {
-    margin: 0;
-  }
-  .foot .main_content .help .all_links .join {
-    right: 0;
-  }
-  .foot .main_content .help .all_links .help_link {
-    right: 0;
-  }
-  .foot .main_content .help .all_links .social {
-    right: 0;
-  }
-  .base {
+  html body .base {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -683,15 +855,156 @@ div .own-nav .own-img img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .base .right {
+  html body .base .right {
     white-space: nowrap;
     width: 53%;
-    margin: 0 0 0 5em;
   }
-  .base .left {
+  html body .base .left {
     white-space: nowrap;
   }
-  .base .left ul {
+  html body .base .left ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 0) and (max-width: 320px) {
+  html body .z-index .bt-nav .nav-img img {
+    width: 25vw;
+  }
+  html body .login {
+    width: 55vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .login .right, html body .login .left {
+    border: none;
+    width: 100%;
+  }
+  html body .login .right .buttons, html body .login .left .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .login .right .buttons button, html body .login .left .buttons button {
+    width: 85vw;
+    margin: 1em 0 0 2em;
+  }
+  html body .login .right .buttons label, html body .login .left .buttons label {
+    white-space: normal;
+  }
+  html body .login .right input[type=email], html body .login .right input[type=password], html body .login .left input[type=email], html body .login .left input[type=password] {
+    width: 90vw;
+  }
+  html body .login .right .be, html body .login .left .be {
+    width: 100vw;
+  }
+  html body .login .left {
+    margin: 0 0 0 -9em;
+    border-right: none;
+  }
+  html body .login .left .regii {
+    width: 90vw;
+  }
+  html body .login .right {
+    margin: 0 0 0 -10em;
+  }
+  html body .login .right .password {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80vw;
+  }
+  html body .login .right .regi {
+    width: 90vw;
+  }
+  html body .images .image {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% 42%;
+        grid-template-columns: 42% 42%;
+    margin: 1em 0 0 2.5em;
+  }
+  html body .images .image .six_image {
+    width: 70%;
+    height: 50%;
+  }
+  html body .foot {
+    margin: 12em 0 -2em 0;
+  }
+  html body .foot .main_content .blue_back {
+    border-radius: 6em;
+    width: 100vw;
+  }
+  html body .foot .main_content .blue_back h1 {
+    white-space: nowrap;
+    margin: 0 0 0 -.5em;
+  }
+  html body .foot .main_content .blue_back .common {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: -.5em;
+    right: -6em;
+  }
+  html body .foot .main_content .blue_back .common .start {
+    position: relative;
+    top: 2em;
+    left: -7em;
+    margin: 1em 0;
+    width: 103%;
+  }
+  html body .foot .main_content .blue_back .common .tutor {
+    position: relative;
+    top: 1em;
+    left: -1em;
+    width: 14em;
+    margin: .5em 0 0 -6em;
+  }
+  html body .foot .main_content .help .all_links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+    -ms-grid-rows: 33% 33%;
+        grid-template-rows: 33% 33%;
+  }
+  html body .base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .base .right {
+    white-space: nowrap;
+    width: 53%;
+  }
+  html body .base .left {
+    white-space: nowrap;
+  }
+  html body .base .left ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
